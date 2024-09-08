@@ -42,30 +42,41 @@ points:
             splay: 0
             stagger: pinky_stagger
             spread: pinky_spread
+            column_net: C0
         ring:
           key:
             splay: ring_splay - pinky_splay
             stagger: ring_stagger
             spread: ring_spread
+            column_net: C1
         middle:
           key:
             splay: middle_splay - ring_splay
             stagger: middle_stagger
             spread: middle_spread
+            column_net: C2
         index:
           key:
             splay: index_splay - middle_splay
             stagger: index_stagger
             spread: index_spread
+            column_net: C3
         inner:
           key:
             splay: inner_splay - middle_splay
             stagger: inner_stagger
             spread: inner_spread
+            column_net: C4
       rows:
-        bottom:
-        home:
-        top:
+         bottom:
+          row_net: R2
+          mirror.row_net: R6
+         home:
+          row_net: R1
+          mirror.row_net: R5
+         top:
+          row_net: R0
+          mirror.row_net: R4
     thumb:
       key:
         padding: 1ky
@@ -77,16 +88,21 @@ points:
         inner:
           key:
             splay: -5
+            column_net: C2
         home:
           key:
-            splay: -10
+            splay: -15
             shift: [3,-2]
+            column_net: C3
         outer:
           key:
-              splay: -15
-              shift: [.4kx,-3]
+            splay: -15
+            shift: [6.5,-3.1]
+            column_net: C4
       rows:
         thumb:
+          row_net: 4
+          mirror.row_net: 7
   mirror: &mirror
     ref: matrix_inner_home
     distance: 4kx 

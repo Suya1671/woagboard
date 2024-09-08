@@ -25,7 +25,7 @@ units:
   index_spread: 1kx
 
   inner_splay: -2
-  inner_stagger: -5
+  inner_stagger: -2
   inner_spread: 1kx
 points:
   zones:

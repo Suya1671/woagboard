@@ -1,7 +1,7 @@
 matrix_pinky_bottom:
   x: 0
   'y': 0
-  r: 7
+  r: 9
   meta:
     stagger: 0
     spread: 18
@@ -26,7 +26,7 @@ matrix_pinky_bottom:
     column_net: C0
     row_net: R2
     mirror:
-      row_net: R6
+      row_net: R2
     zone: &ref_1
       key:
         padding: 1ky
@@ -77,15 +77,15 @@ matrix_pinky_bottom:
         bottom:
           row_net: R2
           mirror:
-            row_net: R6
+            row_net: R2
         home:
           row_net: R1
           mirror:
-            row_net: R5
+            row_net: R1
         top:
           row_net: R0
           mirror:
-            row_net: R4
+            row_net: R0
       name: matrix
     col: *ref_0
     row: bottom
@@ -96,9 +96,9 @@ matrix_pinky_bottom:
       - 0
       - 0
 matrix_pinky_home:
-  x: -2.0717788
-  'y': 16.8732846
-  r: 7
+  x: -2.6593859
+  'y': 16.7907018
+  r: 9
   meta:
     stagger: 0
     spread: 18
@@ -123,20 +123,20 @@ matrix_pinky_home:
     column_net: C0
     row_net: R1
     mirror:
-      row_net: R5
+      row_net: R1
     zone: *ref_1
     col: *ref_0
     row: home
     mirrored: false
     bind:
       - 10
-      - 10
+      - 0
       - 10
       - 0
 matrix_pinky_top:
-  x: -4.1435576
-  'y': 33.7465692
-  r: 7
+  x: -5.3187718
+  'y': 33.5814036
+  r: 9
   meta:
     stagger: 0
     spread: 18
@@ -161,7 +161,7 @@ matrix_pinky_top:
     column_net: C0
     row_net: R0
     mirror:
-      row_net: R4
+      row_net: R0
     zone: *ref_1
     col: *ref_0
     row: top
@@ -172,13 +172,13 @@ matrix_pinky_top:
       - 10
       - 0
 matrix_ring_bottom:
-  x: 18.1899817
-  'y': 14.3235668
+  x: 19.1439856
+  'y': 17.2066212
   r: 3
   meta:
-    stagger: 12
-    spread: 19.8
-    splay: -4
+    stagger: 14
+    spread: 21.599999999999998
+    splay: -6
     origin:
       - 0
       - 0
@@ -199,7 +199,7 @@ matrix_ring_bottom:
     column_net: C1
     row_net: R2
     mirror:
-      row_net: R6
+      row_net: R2
     zone: *ref_1
     col: *ref_2
     row: bottom
@@ -210,13 +210,13 @@ matrix_ring_bottom:
       - 0
       - 10
 matrix_ring_home:
-  x: 17.300270400000002
-  'y': 31.3002689
+  x: 18.254274300000002
+  'y': 34.1833233
   r: 3
   meta:
-    stagger: 12
-    spread: 19.8
-    splay: -4
+    stagger: 14
+    spread: 21.599999999999998
+    splay: -6
     origin:
       - 0
       - 0
@@ -237,7 +237,7 @@ matrix_ring_home:
     column_net: C1
     row_net: R1
     mirror:
-      row_net: R5
+      row_net: R1
     zone: *ref_1
     col: *ref_2
     row: home
@@ -246,15 +246,15 @@ matrix_ring_home:
       - 10
       - 10
       - 10
-      - 10
+      - 0
 matrix_ring_top:
-  x: 16.410559100000004
-  'y': 48.276971
+  x: 17.364563000000004
+  'y': 51.160025399999995
   r: 3
   meta:
-    stagger: 12
-    spread: 19.8
-    splay: -4
+    stagger: 14
+    spread: 21.599999999999998
+    splay: -6
     origin:
       - 0
       - 0
@@ -275,7 +275,7 @@ matrix_ring_top:
     column_net: C1
     row_net: R0
     mirror:
-      row_net: R4
+      row_net: R0
     zone: *ref_1
     col: *ref_2
     row: top
@@ -286,8 +286,8 @@ matrix_ring_top:
       - 10
       - 0
 matrix_middle_bottom:
-  x: 37.7011667
-  'y': 20.3529664
+  x: 38.6551707
+  'y': 23.2360208
   r: -2
   meta:
     stagger: 5
@@ -313,7 +313,7 @@ matrix_middle_bottom:
     column_net: C2
     row_net: R2
     mirror:
-      row_net: R6
+      row_net: R2
     zone: *ref_1
     col: *ref_3
     row: bottom
@@ -324,8 +324,8 @@ matrix_middle_bottom:
       - 0
       - 10
 matrix_middle_home:
-  x: 38.2944581
-  'y': 37.3426105
+  x: 39.2484621
+  'y': 40.2256649
   r: -2
   meta:
     stagger: 5
@@ -351,7 +351,7 @@ matrix_middle_home:
     column_net: C2
     row_net: R1
     mirror:
-      row_net: R5
+      row_net: R1
     zone: *ref_1
     col: *ref_3
     row: home
@@ -362,8 +362,8 @@ matrix_middle_home:
       - 10
       - 10
 matrix_middle_top:
-  x: 38.8877495
-  'y': 54.3322546
+  x: 39.841753499999996
+  'y': 57.215309
   r: -2
   meta:
     stagger: 5
@@ -389,7 +389,7 @@ matrix_middle_top:
     column_net: C2
     row_net: R0
     mirror:
-      row_net: R4
+      row_net: R0
     zone: *ref_1
     col: *ref_3
     row: top
@@ -400,8 +400,8 @@ matrix_middle_top:
       - 10
       - 0
 matrix_index_bottom:
-  x: 55.620402600000006
-  'y': 17.7259939
+  x: 56.5744066
+  'y': 20.609048199999997
   r: -2
   meta:
     stagger: -2
@@ -427,7 +427,7 @@ matrix_index_bottom:
     column_net: C3
     row_net: R2
     mirror:
-      row_net: R6
+      row_net: R2
     zone: *ref_1
     col: *ref_4
     row: bottom
@@ -438,8 +438,8 @@ matrix_index_bottom:
       - 0
       - 0
 matrix_index_home:
-  x: 56.213694000000004
-  'y': 34.715638
+  x: 57.167698
+  'y': 37.598692299999996
   r: -2
   meta:
     stagger: -2
@@ -465,7 +465,7 @@ matrix_index_home:
     column_net: C3
     row_net: R1
     mirror:
-      row_net: R5
+      row_net: R1
     zone: *ref_1
     col: *ref_4
     row: home
@@ -476,8 +476,8 @@ matrix_index_home:
       - 10
       - 10
 matrix_index_top:
-  x: 56.8069854
-  'y': 51.7052821
+  x: 57.7609894
+  'y': 54.588336399999996
   r: -2
   meta:
     stagger: -2
@@ -503,7 +503,7 @@ matrix_index_top:
     column_net: C3
     row_net: R0
     mirror:
-      row_net: R4
+      row_net: R0
     zone: *ref_1
     col: *ref_4
     row: top
@@ -514,8 +514,8 @@ matrix_index_top:
       - 10
       - 10
 matrix_inner_bottom:
-  x: 73.5396385
-  'y': 15.0990212
+  x: 74.4936424
+  'y': 17.982075599999998
   r: -2
   meta:
     stagger: -2
@@ -541,7 +541,7 @@ matrix_inner_bottom:
     column_net: C4
     row_net: R2
     mirror:
-      row_net: R6
+      row_net: R2
     zone: *ref_1
     col: *ref_5
     row: bottom
@@ -552,8 +552,8 @@ matrix_inner_bottom:
       - 0
       - 0
 matrix_inner_home:
-  x: 74.1329299
-  'y': 32.0886653
+  x: 75.0869338
+  'y': 34.971719699999994
   r: -2
   meta:
     stagger: -2
@@ -579,7 +579,7 @@ matrix_inner_home:
     column_net: C4
     row_net: R1
     mirror:
-      row_net: R5
+      row_net: R1
     zone: *ref_1
     col: *ref_5
     row: home
@@ -590,8 +590,8 @@ matrix_inner_home:
       - 10
       - 10
 matrix_inner_top:
-  x: 74.72622129999999
-  'y': 49.0783094
+  x: 75.6802252
+  'y': 51.961363799999994
   r: -2
   meta:
     stagger: -2
@@ -617,7 +617,7 @@ matrix_inner_top:
     column_net: C4
     row_net: R0
     mirror:
-      row_net: R4
+      row_net: R0
     zone: *ref_1
     col: *ref_5
     row: top
@@ -628,8 +628,8 @@ matrix_inner_top:
       - 10
       - 10
 thumb_inner_thumb:
-  x: 54.74791520000001
-  'y': -7.2587768
+  x: 55.701919200000006
+  'y': -4.375722500000002
   r: -7
   meta:
     stagger: 0
@@ -655,7 +655,7 @@ thumb_inner_thumb:
     column_net: C2
     row_net: 4
     mirror:
-      row_net: 7
+      row_net: 4
     zone: &ref_7
       key:
         padding: 1ky
@@ -689,7 +689,7 @@ thumb_inner_thumb:
         thumb:
           row_net: 4
           mirror:
-            row_net: 7
+            row_net: 4
       name: thumb
     col: *ref_6
     row: thumb
@@ -700,8 +700,8 @@ thumb_inner_thumb:
       - 0
       - 0
 thumb_home_thumb:
-  x: 74.64608430000001
-  'y': -12.430612400000001
+  x: 75.60008830000001
+  'y': -9.547558100000002
   r: -22
   meta:
     stagger: 0
@@ -727,7 +727,7 @@ thumb_home_thumb:
     column_net: C3
     row_net: 4
     mirror:
-      row_net: 7
+      row_net: 4
     zone: *ref_7
     col: *ref_8
     row: thumb
@@ -738,8 +738,8 @@ thumb_home_thumb:
       - 0
       - 0
 thumb_outer_thumb:
-  x: 92.62855950000001
-  'y': -22.5829114
+  x: 93.5825635
+  'y': -19.699857100000003
   r: -37
   meta:
     stagger: 0
@@ -765,7 +765,7 @@ thumb_outer_thumb:
     column_net: C4
     row_net: 4
     mirror:
-      row_net: 7
+      row_net: 4
     zone: *ref_7
     col: *ref_9
     row: thumb
@@ -776,9 +776,9 @@ thumb_outer_thumb:
       - 0
       - 0
 mirror_matrix_pinky_bottom:
-  x: 220.2658598
+  x: 222.1738676
   'y': 0
-  r: -7
+  r: -9
   meta:
     stagger: 0
     spread: 18
@@ -801,9 +801,9 @@ mirror_matrix_pinky_bottom:
     colrow: mirror_pinky_bottom
     name: mirror_matrix_pinky_bottom
     column_net: C0
-    row_net: R6
+    row_net: R2
     mirror:
-      row_net: R6
+      row_net: R2
     zone:
       key:
         padding: 1ky
@@ -854,15 +854,15 @@ mirror_matrix_pinky_bottom:
         bottom:
           row_net: R2
           mirror:
-            row_net: R6
+            row_net: R2
         home:
           row_net: R1
           mirror:
-            row_net: R5
+            row_net: R1
         top:
           row_net: R0
           mirror:
-            row_net: R4
+            row_net: R0
       name: matrix
     col:
       key:
@@ -880,9 +880,9 @@ mirror_matrix_pinky_bottom:
       - 0
       - 0
 mirror_matrix_pinky_home:
-  x: 222.3376386
-  'y': 16.8732846
-  r: -7
+  x: 224.83325349999998
+  'y': 16.7907018
+  r: -9
   meta:
     stagger: 0
     spread: 18
@@ -905,9 +905,9 @@ mirror_matrix_pinky_home:
     colrow: mirror_pinky_home
     name: mirror_matrix_pinky_home
     column_net: C0
-    row_net: R5
+    row_net: R1
     mirror:
-      row_net: R5
+      row_net: R1
     zone:
       key:
         padding: 1ky
@@ -958,15 +958,15 @@ mirror_matrix_pinky_home:
         bottom:
           row_net: R2
           mirror:
-            row_net: R6
+            row_net: R2
         home:
           row_net: R1
           mirror:
-            row_net: R5
+            row_net: R1
         top:
           row_net: R0
           mirror:
-            row_net: R4
+            row_net: R0
       name: matrix
     col:
       key:
@@ -980,13 +980,13 @@ mirror_matrix_pinky_home:
     mirrored: true
     bind:
       - 10
-      - 10
+      - 0
       - 10
       - 0
 mirror_matrix_pinky_top:
-  x: 224.4094174
-  'y': 33.7465692
-  r: -7
+  x: 227.4926394
+  'y': 33.5814036
+  r: -9
   meta:
     stagger: 0
     spread: 18
@@ -1009,9 +1009,9 @@ mirror_matrix_pinky_top:
     colrow: mirror_pinky_top
     name: mirror_matrix_pinky_top
     column_net: C0
-    row_net: R4
+    row_net: R0
     mirror:
-      row_net: R4
+      row_net: R0
     zone:
       key:
         padding: 1ky
@@ -1062,15 +1062,15 @@ mirror_matrix_pinky_top:
         bottom:
           row_net: R2
           mirror:
-            row_net: R6
+            row_net: R2
         home:
           row_net: R1
           mirror:
-            row_net: R5
+            row_net: R1
         top:
           row_net: R0
           mirror:
-            row_net: R4
+            row_net: R0
       name: matrix
     col:
       key:
@@ -1088,13 +1088,13 @@ mirror_matrix_pinky_top:
       - 10
       - 0
 mirror_matrix_ring_bottom:
-  x: 202.07587809999998
-  'y': 14.3235668
+  x: 203.029882
+  'y': 17.2066212
   r: -3
   meta:
-    stagger: 12
-    spread: 19.8
-    splay: -4
+    stagger: 14
+    spread: 21.599999999999998
+    splay: -6
     origin:
       - 0
       - 0
@@ -1113,9 +1113,9 @@ mirror_matrix_ring_bottom:
     colrow: mirror_ring_bottom
     name: mirror_matrix_ring_bottom
     column_net: C1
-    row_net: R6
+    row_net: R2
     mirror:
-      row_net: R6
+      row_net: R2
     zone:
       key:
         padding: 1ky
@@ -1166,15 +1166,15 @@ mirror_matrix_ring_bottom:
         bottom:
           row_net: R2
           mirror:
-            row_net: R6
+            row_net: R2
         home:
           row_net: R1
           mirror:
-            row_net: R5
+            row_net: R1
         top:
           row_net: R0
           mirror:
-            row_net: R4
+            row_net: R0
       name: matrix
     col:
       key:
@@ -1192,13 +1192,13 @@ mirror_matrix_ring_bottom:
       - 0
       - 10
 mirror_matrix_ring_home:
-  x: 202.9655894
-  'y': 31.3002689
+  x: 203.9195933
+  'y': 34.1833233
   r: -3
   meta:
-    stagger: 12
-    spread: 19.8
-    splay: -4
+    stagger: 14
+    spread: 21.599999999999998
+    splay: -6
     origin:
       - 0
       - 0
@@ -1217,9 +1217,9 @@ mirror_matrix_ring_home:
     colrow: mirror_ring_home
     name: mirror_matrix_ring_home
     column_net: C1
-    row_net: R5
+    row_net: R1
     mirror:
-      row_net: R5
+      row_net: R1
     zone:
       key:
         padding: 1ky
@@ -1270,15 +1270,15 @@ mirror_matrix_ring_home:
         bottom:
           row_net: R2
           mirror:
-            row_net: R6
+            row_net: R2
         home:
           row_net: R1
           mirror:
-            row_net: R5
+            row_net: R1
         top:
           row_net: R0
           mirror:
-            row_net: R4
+            row_net: R0
       name: matrix
     col:
       key:
@@ -1294,15 +1294,15 @@ mirror_matrix_ring_home:
       - 10
       - 10
       - 10
-      - 10
+      - 0
 mirror_matrix_ring_top:
-  x: 203.8553007
-  'y': 48.276971
+  x: 204.8093046
+  'y': 51.160025399999995
   r: -3
   meta:
-    stagger: 12
-    spread: 19.8
-    splay: -4
+    stagger: 14
+    spread: 21.599999999999998
+    splay: -6
     origin:
       - 0
       - 0
@@ -1321,9 +1321,9 @@ mirror_matrix_ring_top:
     colrow: mirror_ring_top
     name: mirror_matrix_ring_top
     column_net: C1
-    row_net: R4
+    row_net: R0
     mirror:
-      row_net: R4
+      row_net: R0
     zone:
       key:
         padding: 1ky
@@ -1374,15 +1374,15 @@ mirror_matrix_ring_top:
         bottom:
           row_net: R2
           mirror:
-            row_net: R6
+            row_net: R2
         home:
           row_net: R1
           mirror:
-            row_net: R5
+            row_net: R1
         top:
           row_net: R0
           mirror:
-            row_net: R4
+            row_net: R0
       name: matrix
     col:
       key:
@@ -1400,8 +1400,8 @@ mirror_matrix_ring_top:
       - 10
       - 0
 mirror_matrix_middle_bottom:
-  x: 182.5646931
-  'y': 20.3529664
+  x: 183.5186969
+  'y': 23.2360208
   r: 2
   meta:
     stagger: 5
@@ -1425,9 +1425,9 @@ mirror_matrix_middle_bottom:
     colrow: mirror_middle_bottom
     name: mirror_matrix_middle_bottom
     column_net: C2
-    row_net: R6
+    row_net: R2
     mirror:
-      row_net: R6
+      row_net: R2
     zone:
       key:
         padding: 1ky
@@ -1478,15 +1478,15 @@ mirror_matrix_middle_bottom:
         bottom:
           row_net: R2
           mirror:
-            row_net: R6
+            row_net: R2
         home:
           row_net: R1
           mirror:
-            row_net: R5
+            row_net: R1
         top:
           row_net: R0
           mirror:
-            row_net: R4
+            row_net: R0
       name: matrix
     col:
       key:
@@ -1504,8 +1504,8 @@ mirror_matrix_middle_bottom:
       - 0
       - 10
 mirror_matrix_middle_home:
-  x: 181.9714017
-  'y': 37.3426105
+  x: 182.9254055
+  'y': 40.2256649
   r: 2
   meta:
     stagger: 5
@@ -1529,9 +1529,9 @@ mirror_matrix_middle_home:
     colrow: mirror_middle_home
     name: mirror_matrix_middle_home
     column_net: C2
-    row_net: R5
+    row_net: R1
     mirror:
-      row_net: R5
+      row_net: R1
     zone:
       key:
         padding: 1ky
@@ -1582,15 +1582,15 @@ mirror_matrix_middle_home:
         bottom:
           row_net: R2
           mirror:
-            row_net: R6
+            row_net: R2
         home:
           row_net: R1
           mirror:
-            row_net: R5
+            row_net: R1
         top:
           row_net: R0
           mirror:
-            row_net: R4
+            row_net: R0
       name: matrix
     col:
       key:
@@ -1608,8 +1608,8 @@ mirror_matrix_middle_home:
       - 10
       - 10
 mirror_matrix_middle_top:
-  x: 181.3781103
-  'y': 54.3322546
+  x: 182.3321141
+  'y': 57.215309
   r: 2
   meta:
     stagger: 5
@@ -1633,9 +1633,9 @@ mirror_matrix_middle_top:
     colrow: mirror_middle_top
     name: mirror_matrix_middle_top
     column_net: C2
-    row_net: R4
+    row_net: R0
     mirror:
-      row_net: R4
+      row_net: R0
     zone:
       key:
         padding: 1ky
@@ -1686,15 +1686,15 @@ mirror_matrix_middle_top:
         bottom:
           row_net: R2
           mirror:
-            row_net: R6
+            row_net: R2
         home:
           row_net: R1
           mirror:
-            row_net: R5
+            row_net: R1
         top:
           row_net: R0
           mirror:
-            row_net: R4
+            row_net: R0
       name: matrix
     col:
       key:
@@ -1712,8 +1712,8 @@ mirror_matrix_middle_top:
       - 10
       - 0
 mirror_matrix_index_bottom:
-  x: 164.64545719999998
-  'y': 17.7259939
+  x: 165.599461
+  'y': 20.609048199999997
   r: 2
   meta:
     stagger: -2
@@ -1737,9 +1737,9 @@ mirror_matrix_index_bottom:
     colrow: mirror_index_bottom
     name: mirror_matrix_index_bottom
     column_net: C3
-    row_net: R6
+    row_net: R2
     mirror:
-      row_net: R6
+      row_net: R2
     zone:
       key:
         padding: 1ky
@@ -1790,15 +1790,15 @@ mirror_matrix_index_bottom:
         bottom:
           row_net: R2
           mirror:
-            row_net: R6
+            row_net: R2
         home:
           row_net: R1
           mirror:
-            row_net: R5
+            row_net: R1
         top:
           row_net: R0
           mirror:
-            row_net: R4
+            row_net: R0
       name: matrix
     col:
       key:
@@ -1816,8 +1816,8 @@ mirror_matrix_index_bottom:
       - 0
       - 0
 mirror_matrix_index_home:
-  x: 164.05216579999998
-  'y': 34.715638
+  x: 165.0061696
+  'y': 37.598692299999996
   r: 2
   meta:
     stagger: -2
@@ -1841,9 +1841,9 @@ mirror_matrix_index_home:
     colrow: mirror_index_home
     name: mirror_matrix_index_home
     column_net: C3
-    row_net: R5
+    row_net: R1
     mirror:
-      row_net: R5
+      row_net: R1
     zone:
       key:
         padding: 1ky
@@ -1894,15 +1894,15 @@ mirror_matrix_index_home:
         bottom:
           row_net: R2
           mirror:
-            row_net: R6
+            row_net: R2
         home:
           row_net: R1
           mirror:
-            row_net: R5
+            row_net: R1
         top:
           row_net: R0
           mirror:
-            row_net: R4
+            row_net: R0
       name: matrix
     col:
       key:
@@ -1920,8 +1920,8 @@ mirror_matrix_index_home:
       - 10
       - 10
 mirror_matrix_index_top:
-  x: 163.45887439999998
-  'y': 51.7052821
+  x: 164.4128782
+  'y': 54.588336399999996
   r: 2
   meta:
     stagger: -2
@@ -1945,9 +1945,9 @@ mirror_matrix_index_top:
     colrow: mirror_index_top
     name: mirror_matrix_index_top
     column_net: C3
-    row_net: R4
+    row_net: R0
     mirror:
-      row_net: R4
+      row_net: R0
     zone:
       key:
         padding: 1ky
@@ -1998,15 +1998,15 @@ mirror_matrix_index_top:
         bottom:
           row_net: R2
           mirror:
-            row_net: R6
+            row_net: R2
         home:
           row_net: R1
           mirror:
-            row_net: R5
+            row_net: R1
         top:
           row_net: R0
           mirror:
-            row_net: R4
+            row_net: R0
       name: matrix
     col:
       key:
@@ -2024,8 +2024,8 @@ mirror_matrix_index_top:
       - 10
       - 10
 mirror_matrix_inner_bottom:
-  x: 146.7262213
-  'y': 15.0990212
+  x: 147.6802252
+  'y': 17.982075599999998
   r: 2
   meta:
     stagger: -2
@@ -2049,9 +2049,9 @@ mirror_matrix_inner_bottom:
     colrow: mirror_inner_bottom
     name: mirror_matrix_inner_bottom
     column_net: C4
-    row_net: R6
+    row_net: R2
     mirror:
-      row_net: R6
+      row_net: R2
     zone:
       key:
         padding: 1ky
@@ -2102,15 +2102,15 @@ mirror_matrix_inner_bottom:
         bottom:
           row_net: R2
           mirror:
-            row_net: R6
+            row_net: R2
         home:
           row_net: R1
           mirror:
-            row_net: R5
+            row_net: R1
         top:
           row_net: R0
           mirror:
-            row_net: R4
+            row_net: R0
       name: matrix
     col:
       key:
@@ -2128,8 +2128,8 @@ mirror_matrix_inner_bottom:
       - 0
       - 0
 mirror_matrix_inner_home:
-  x: 146.1329299
-  'y': 32.0886653
+  x: 147.0869338
+  'y': 34.971719699999994
   r: 2
   meta:
     stagger: -2
@@ -2153,9 +2153,9 @@ mirror_matrix_inner_home:
     colrow: mirror_inner_home
     name: mirror_matrix_inner_home
     column_net: C4
-    row_net: R5
+    row_net: R1
     mirror:
-      row_net: R5
+      row_net: R1
     zone:
       key:
         padding: 1ky
@@ -2206,15 +2206,15 @@ mirror_matrix_inner_home:
         bottom:
           row_net: R2
           mirror:
-            row_net: R6
+            row_net: R2
         home:
           row_net: R1
           mirror:
-            row_net: R5
+            row_net: R1
         top:
           row_net: R0
           mirror:
-            row_net: R4
+            row_net: R0
       name: matrix
     col:
       key:
@@ -2232,8 +2232,8 @@ mirror_matrix_inner_home:
       - 10
       - 10
 mirror_matrix_inner_top:
-  x: 145.5396385
-  'y': 49.0783094
+  x: 146.4936424
+  'y': 51.961363799999994
   r: 2
   meta:
     stagger: -2
@@ -2257,9 +2257,9 @@ mirror_matrix_inner_top:
     colrow: mirror_inner_top
     name: mirror_matrix_inner_top
     column_net: C4
-    row_net: R4
+    row_net: R0
     mirror:
-      row_net: R4
+      row_net: R0
     zone:
       key:
         padding: 1ky
@@ -2310,15 +2310,15 @@ mirror_matrix_inner_top:
         bottom:
           row_net: R2
           mirror:
-            row_net: R6
+            row_net: R2
         home:
           row_net: R1
           mirror:
-            row_net: R5
+            row_net: R1
         top:
           row_net: R0
           mirror:
-            row_net: R4
+            row_net: R0
       name: matrix
     col:
       key:
@@ -2336,8 +2336,8 @@ mirror_matrix_inner_top:
       - 10
       - 10
 mirror_thumb_inner_thumb:
-  x: 165.51794459999996
-  'y': -7.2587768
+  x: 166.47194839999997
+  'y': -4.375722500000002
   r: 7
   meta:
     stagger: 0
@@ -2361,9 +2361,9 @@ mirror_thumb_inner_thumb:
     colrow: mirror_inner_thumb
     name: mirror_thumb_inner_thumb
     column_net: C2
-    row_net: 7
+    row_net: 4
     mirror:
-      row_net: 7
+      row_net: 4
     zone:
       key:
         padding: 1ky
@@ -2397,7 +2397,7 @@ mirror_thumb_inner_thumb:
         thumb:
           row_net: 4
           mirror:
-            row_net: 7
+            row_net: 4
       name: thumb
     col:
       key:
@@ -2413,8 +2413,8 @@ mirror_thumb_inner_thumb:
       - 0
       - 0
 mirror_thumb_home_thumb:
-  x: 145.61977549999997
-  'y': -12.430612400000001
+  x: 146.57377929999998
+  'y': -9.547558100000002
   r: 22
   meta:
     stagger: 0
@@ -2438,9 +2438,9 @@ mirror_thumb_home_thumb:
     colrow: mirror_home_thumb
     name: mirror_thumb_home_thumb
     column_net: C3
-    row_net: 7
+    row_net: 4
     mirror:
-      row_net: 7
+      row_net: 4
     zone:
       key:
         padding: 1ky
@@ -2474,7 +2474,7 @@ mirror_thumb_home_thumb:
         thumb:
           row_net: 4
           mirror:
-            row_net: 7
+            row_net: 4
       name: thumb
     col:
       key:
@@ -2493,8 +2493,8 @@ mirror_thumb_home_thumb:
       - 0
       - 0
 mirror_thumb_outer_thumb:
-  x: 127.63730029999998
-  'y': -22.5829114
+  x: 128.5913041
+  'y': -19.699857100000003
   r: 37
   meta:
     stagger: 0
@@ -2518,9 +2518,9 @@ mirror_thumb_outer_thumb:
     colrow: mirror_outer_thumb
     name: mirror_thumb_outer_thumb
     column_net: C4
-    row_net: 7
+    row_net: 4
     mirror:
-      row_net: 7
+      row_net: 4
     zone:
       key:
         padding: 1ky
@@ -2554,7 +2554,7 @@ mirror_thumb_outer_thumb:
         thumb:
           row_net: 4
           mirror:
-            row_net: 7
+            row_net: 4
       name: thumb
     col:
       key:

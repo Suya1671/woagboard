@@ -5,16 +5,16 @@ units:
   $default_width: cx
   $default_height: cy
   # Padding Variables
-  px: kx + 2
-  py: ky + 2
+  px: kx
+  py: ky
   # column splay and stagger
-  pinky_splay: 7 # degrees splay relative to zone splay
+  pinky_splay: 9 # degrees splay relative to zone splay
   pinky_stagger: 0 # mm, relative to previous column
   pinky_spread: 1kx # mm, relative to previous column
 
   ring_splay: 3
-  ring_stagger: 12
-  ring_spread: 1.1kx
+  ring_stagger: 14
+  ring_spread: 1.2kx
 
   middle_splay: -2
   middle_stagger: 5
@@ -68,15 +68,15 @@ points:
             spread: inner_spread
             column_net: C4
       rows:
-         bottom:
+        bottom:
           row_net: R2
-          mirror.row_net: R6
-         home:
+          mirror.row_net: R2
+        home:
           row_net: R1
-          mirror.row_net: R5
-         top:
+          mirror.row_net: R1
+        top:
           row_net: R0
-          mirror.row_net: R4
+          mirror.row_net: R0
     thumb:
       key:
         padding: 1ky
@@ -92,17 +92,17 @@ points:
         home:
           key:
             splay: -15
-            shift: [3,-2]
+            shift: [3, -2]
             column_net: C3
         outer:
           key:
             splay: -15
-            shift: [6.5,-3.1]
+            shift: [6.5, -3.1]
             column_net: C4
       rows:
         thumb:
           row_net: 4
-          mirror.row_net: 7
+          mirror.row_net: 4
   mirror: &mirror
     ref: matrix_inner_home
-    distance: 4kx 
+    distance: 4kx

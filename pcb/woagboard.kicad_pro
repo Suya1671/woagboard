@@ -446,7 +446,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "woagboard_left.kicad_pro",
+    "filename": "woagboard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -494,7 +494,7 @@
     "netclass_patterns": [
       {
         "netclass": "USB Data",
-        "pattern": "USB-D."
+        "pattern": "USB(.+)?-D."
       }
     ]
   },

@@ -6348,6 +6348,28 @@
 			)
 		)
 	)
+	(global_label "Switch32"
+		(shape input)
+		(at 415.29 203.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07373618-2a50-4667-8130-3e8a6b008956")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 426.8023 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Switch11"
 		(shape input)
 		(at 67.31 227.33 180)
@@ -6476,28 +6498,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Switch32"
-		(shape input)
-		(at 415.29 187.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "142e37ed-dc21-422e-9fe0-31eb21510140")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.8023 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6806,28 +6806,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Switch33"
-		(shape input)
-		(at 415.29 248.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "319d6a97-db7b-4009-8327-ec00d2b4fcf0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.8023 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7404,28 +7382,6 @@
 			)
 		)
 	)
-	(global_label "Switch29"
-		(shape input)
-		(at 415.29 203.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7de4adc3-be15-464d-9a0b-93c5398ddd41")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.8023 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Switch12"
 		(shape input)
 		(at 67.31 237.49 180)
@@ -7844,6 +7800,28 @@
 			)
 		)
 	)
+	(global_label "Switch29"
+		(shape input)
+		(at 415.29 248.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a850cd1a-aded-4213-be1f-05ca02ede1c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 426.8023 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Switch27"
 		(shape input)
 		(at 415.29 193.04 0)
@@ -8196,6 +8174,28 @@
 			)
 		)
 	)
+	(global_label "Switch30"
+		(shape input)
+		(at 415.29 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cea163fa-e8ca-457a-9ab6-8eb59f6c507c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 426.8023 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RST-R"
 		(shape output)
 		(at 336.55 212.09 180)
@@ -8328,28 +8328,6 @@
 			)
 		)
 	)
-	(global_label "Switch30"
-		(shape input)
-		(at 369.57 248.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d84f0a65-3995-4dd6-a1e4-fa37d9f410ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 358.0577 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Switch19"
 		(shape input)
 		(at 369.57 243.84 180)
@@ -8385,6 +8363,28 @@
 		(uuid "d945bb8b-ce6e-48c8-8040-e245d4bea35c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 373.2977 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Switch33"
+		(shape input)
+		(at 369.57 248.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc1ae219-0793-4ca5-bbc0-93faffa45f89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.0577 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)

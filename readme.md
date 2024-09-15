@@ -11,3 +11,7 @@ lets see if this works like at all
   - Use it for info display and potentially FIDO2 status
 - FIDO2 auth software
   - Key combo as encryption
+
+# Copyright notice
+The Woagboard is not affiliated with New Blood Interactive nor Tour De Pizza.
+I just like ULTRAKILL and Pizza Tower.

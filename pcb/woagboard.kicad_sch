@@ -10346,7 +10346,7 @@
 				)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "18p"
 			(at 128.27 202.4888 90)
 			(effects
 				(font
@@ -19215,7 +19215,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm"
+		(property "Footprint" "Library:Q13FC13500004"
 			(at 427.99 212.09 0)
 			(effects
 				(font
@@ -20102,7 +20102,7 @@
 				)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "18p"
 			(at 128.27 221.9452 90)
 			(effects
 				(font
@@ -21411,7 +21411,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm"
+		(property "Footprint" "Library:Q13FC13500004"
 			(at 125.73 213.36 0)
 			(effects
 				(font

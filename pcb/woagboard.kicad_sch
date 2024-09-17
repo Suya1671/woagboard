@@ -11613,7 +11613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
+		(property "Footprint" "SamacSys_Parts:QFN50P300X300X80-17N-D"
 			(at 64.77 140.97 0)
 			(effects
 				(font
@@ -21690,7 +21690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
+		(property "Footprint" "SamacSys_Parts:QFN50P300X300X80-17N-D"
 			(at 367.03 139.7 0)
 			(effects
 				(font

@@ -2315,311 +2315,6 @@
 				)
 			)
 		)
-		(symbol "EVQ-P7C01P:EVQ-P7C01P"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at -2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "EVQ-P7C01P"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "EVQ-P7C01P:SW_EVQ-P7C01P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Panasonic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/EVQP7C01P/Panasonic/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "2022.4"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQP7C01P/Panasonic/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "EVQP7C01P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6739934&manufacturer=Panasonic&part_name=EVQP7C01P&search_term=None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\nTACTILE SW, SPST-NO, 0.05A, 12V, SMD; Product Range:EVQP7 Series; Actuator Orientation:Side Actuated; Switch Mounting:SMD; Actuator Style:Rectangular Button; Actuating Force:220gf; Contact Rating:50mA at 12VDC; Switch Dimensions (L xRoHS Compliant: Yes\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Panasonic Electronic Components"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "EVQ-P7C01P_0_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.794 2.1336)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 2.921 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.3302)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PCM_marbastlib-various:nRF52840_E73-2G4M08S1C"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5002,10 +4697,6 @@
 		(uuid "219f2b53-ffa5-4945-82da-d7dde8a3530f")
 	)
 	(no_connect
-		(at 369.57 233.68)
-		(uuid "250a62d7-d9fa-4d5d-bad4-bf81453ccf27")
-	)
-	(no_connect
 		(at 415.29 195.58)
 		(uuid "26a38ba1-639b-4d81-8f68-e528ce815c19")
 	)
@@ -5020,6 +4711,10 @@
 	(no_connect
 		(at 356.87 58.42)
 		(uuid "50a7e338-3f4c-47c5-8c4f-c36ddc916bd4")
+	)
+	(no_connect
+		(at 369.57 226.06)
+		(uuid "517511d7-c58c-440b-9eeb-0eefbb9435ec")
 	)
 	(no_connect
 		(at 372.11 133.35)
@@ -5048,10 +4743,6 @@
 	(no_connect
 		(at 415.29 233.68)
 		(uuid "7dc2c012-d034-4778-bf72-950f30b88072")
-	)
-	(no_connect
-		(at 415.29 231.14)
-		(uuid "962b38bc-f1bf-4f77-a3e3-17cd0cb73735")
 	)
 	(no_connect
 		(at 356.87 60.96)
@@ -5096,10 +4787,6 @@
 	(no_connect
 		(at 113.03 242.57)
 		(uuid "f6706ef0-3763-4358-8963-740a45540c66")
-	)
-	(no_connect
-		(at 113.03 199.39)
-		(uuid "f683e7be-a498-41ba-9323-859ad8880644")
 	)
 	(no_connect
 		(at 113.03 245.11)
@@ -5422,6 +5109,16 @@
 			(type default)
 		)
 		(uuid "42058eb6-535c-4bfe-8f70-3dcc2e8b8920")
+	)
+	(wire
+		(pts
+			(xy 358.14 233.68) (xy 369.57 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f6d379-ac43-4b6b-8fcf-219f9b40821d")
 	)
 	(wire
 		(pts
@@ -6442,9 +6139,9 @@
 			)
 		)
 	)
-	(global_label "Switch8"
-		(shape input)
-		(at 67.31 229.87 180)
+	(global_label "RST"
+		(shape output)
+		(at 33.02 246.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6452,9 +6149,9 @@
 			)
 			(justify right)
 		)
-		(uuid "042282e7-d601-4374-beb7-dfd830e2f8c9")
+		(uuid "04944836-f932-4f70-832e-9cae532eaf07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.0072 229.87 0)
+			(at 26.5877 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6486,24 +6183,46 @@
 			)
 		)
 	)
-	(global_label "Switch32"
+	(global_label "Switch25"
 		(shape input)
-		(at 415.29 203.2 0)
+		(at 369.57 231.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "07373618-2a50-4667-8130-3e8a6b008956")
+		(uuid "06148acc-b9dd-4f9e-96f6-0671265d63b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.8023 203.2 0)
+			(at 358.0577 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Switch24"
+		(shape input)
+		(at 369.57 248.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08b755a3-29b3-42d1-8e4e-55662e0262bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.0577 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6706,6 +6425,28 @@
 			)
 		)
 	)
+	(global_label "Switch33"
+		(shape input)
+		(at 415.29 203.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e091251-0960-4e51-a2b6-c13038a493db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 426.8023 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Switch31"
 		(shape input)
 		(at 367.03 322.58 180)
@@ -6728,28 +6469,6 @@
 			)
 		)
 	)
-	(global_label "RST"
-		(shape output)
-		(at 34.29 213.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1fdd1665-dcd0-44da-a4e3-150e1f781b85")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.4298 213.2806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB-R-D-"
 		(shape bidirectional)
 		(at 394.97 66.04 180)
@@ -6763,6 +6482,28 @@
 		(uuid "2072bb9a-642b-4ef6-a413-91c550e9c15a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 379.8063 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Switch8"
+		(shape input)
+		(at 67.31 250.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20c3f09e-18f1-4df3-b728-58cee1536cef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.0072 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6948,50 +6689,6 @@
 			)
 		)
 	)
-	(global_label "Switch25"
-		(shape input)
-		(at 369.57 223.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2fc676a6-11d2-4676-b150-fa432d1df9c5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 358.0577 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RST"
-		(shape output)
-		(at 30.48 237.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3237f764-510a-42a6-9c28-9879c71ce259")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.0477 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Switch13"
 		(shape input)
 		(at 64.77 323.85 180)
@@ -7080,24 +6777,24 @@
 			)
 		)
 	)
-	(global_label "Switch9"
+	(global_label "Switch7"
 		(shape input)
-		(at 113.03 194.31 0)
+		(at 67.31 229.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "45f141f4-be9a-4958-b6c5-8666cf2cd2db")
+		(uuid "3df7b80b-065d-4fb0-85c6-78a7757fe8a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.3328 194.31 0)
+			(at 55.7977 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7146,24 +6843,24 @@
 			)
 		)
 	)
-	(global_label "RST-R"
-		(shape output)
-		(at 332.74 250.19 180)
+	(global_label "Switch6"
+		(shape input)
+		(at 113.03 194.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "56127840-b72f-4e1a-b37c-51ed9ba4c527")
+		(uuid "5658bc9a-21ab-4feb-aa58-18d8cf5623fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.4653 250.19 0)
+			(at 123.3328 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7344,28 +7041,6 @@
 			)
 		)
 	)
-	(global_label "Switch6"
-		(shape input)
-		(at 67.31 250.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "712af1d1-8755-4258-850b-6923861a9bc2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.7977 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Switch2"
 		(shape input)
 		(at 113.03 207.01 0)
@@ -7476,9 +7151,31 @@
 			)
 		)
 	)
-	(global_label "Switch26"
+	(global_label "Switch32"
 		(shape input)
-		(at 369.57 228.6 180)
+		(at 415.29 205.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8034cb61-0899-411f-925b-a5a8fb5ad7d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 426.8023 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Switch9"
+		(shape input)
+		(at 67.31 224.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7486,9 +7183,9 @@
 			)
 			(justify right)
 		)
-		(uuid "873edd02-cf4c-4e6a-8733-39e627fbfa14")
+		(uuid "85658591-ab9c-43d8-ab14-842a5e4285c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 358.0577 228.6 0)
+			(at 57.0072 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7498,9 +7195,9 @@
 			)
 		)
 	)
-	(global_label "Switch22"
+	(global_label "Switch21"
 		(shape input)
-		(at 369.57 236.22 180)
+		(at 369.57 241.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7508,9 +7205,9 @@
 			)
 			(justify right)
 		)
-		(uuid "874280f9-27c5-427e-b295-b10475325346")
+		(uuid "884d00cb-ac50-456f-ac33-e806f233c26b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 358.0577 236.22 0)
+			(at 358.0577 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7538,6 +7235,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Switch26"
+		(shape input)
+		(at 415.29 193.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c41d3fa-56c6-4f04-8521-3751ceea72a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 426.8023 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7599,28 +7318,6 @@
 		(uuid "947cf170-d6a8-4f30-acc9-364124b32e40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 36.7477 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Switch20"
-		(shape input)
-		(at 369.57 241.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "97b1c17c-260d-4568-be08-b69e66c94d72")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 358.0577 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7806,6 +7503,28 @@
 			)
 		)
 	)
+	(global_label "Switch23"
+		(shape input)
+		(at 369.57 236.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3cb6b31-8520-474f-b616-126098a182db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.0577 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Switch15"
 		(shape input)
 		(at 67.31 245.11 180)
@@ -7894,28 +7613,6 @@
 			)
 		)
 	)
-	(global_label "Switch27"
-		(shape input)
-		(at 415.29 193.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a9e73acb-bb39-48c5-84b8-2bd877e746b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.8023 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Switch3"
 		(shape input)
 		(at 113.03 201.93 0)
@@ -7982,9 +7679,9 @@
 			)
 		)
 	)
-	(global_label "Switch24"
+	(global_label "Switch19"
 		(shape input)
-		(at 415.29 205.74 0)
+		(at 415.29 231.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7992,9 +7689,9 @@
 			)
 			(justify left)
 		)
-		(uuid "ac449642-89b2-40a2-839d-ced0234bc1a0")
+		(uuid "b090d639-5486-4356-a22a-e1a9a7f49761")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.8023 205.74 0)
+			(at 426.8023 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,6 +7767,28 @@
 			)
 		)
 	)
+	(global_label "Switch10"
+		(shape input)
+		(at 67.31 232.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4a26bd9-c752-45a9-96cf-c5cd82c9f795")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.0072 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Switch3"
 		(shape input)
 		(at 64.77 283.21 180)
@@ -8105,6 +7824,28 @@
 		(uuid "be263777-c732-4bd0-a76e-6e64be12850d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 339.0077 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Switch28"
+		(shape input)
+		(at 369.57 223.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1bfbc2a-fd38-40c6-8630-99130951205c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.0577 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8154,28 +7895,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Switch23"
-		(shape input)
-		(at 369.57 226.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ca0c1f95-4d18-4987-9bfe-bf52167d604b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 358.0577 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -8246,28 +7965,6 @@
 			)
 		)
 	)
-	(global_label "Switch10"
-		(shape input)
-		(at 67.31 232.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ce3f8d46-6070-4617-9099-60a27ef8a82f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.0072 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Switch30"
 		(shape input)
 		(at 415.29 187.96 0)
@@ -8286,28 +7983,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RST-R"
-		(shape output)
-		(at 336.55 212.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cfd2c1aa-9eb0-4209-90dd-b0ef3566c0f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.2753 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -8369,6 +8044,28 @@
 		(uuid "d3f5a1ff-d6df-4612-a77f-f69bb5dc1025")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 135.086 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Switch22"
+		(shape input)
+		(at 369.57 238.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5ecb4fd-f839-4950-99bb-f31d9d5e3b1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.0577 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8444,28 +8141,6 @@
 			)
 		)
 	)
-	(global_label "Switch19"
-		(shape input)
-		(at 369.57 243.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d87cd14b-3c13-4e00-85de-5a80525b7945")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 358.0577 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Switch35"
 		(shape input)
 		(at 384.81 340.36 180)
@@ -8488,9 +8163,9 @@
 			)
 		)
 	)
-	(global_label "Switch33"
+	(global_label "Switch20"
 		(shape input)
-		(at 369.57 248.92 180)
+		(at 369.57 243.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8498,9 +8173,9 @@
 			)
 			(justify right)
 		)
-		(uuid "dc1ae219-0793-4ca5-bbc0-93faffa45f89")
+		(uuid "da03996d-3bb5-4746-ac20-0505bfa4ab5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 358.0577 248.92 0)
+			(at 358.0577 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8598,9 +8273,9 @@
 			)
 		)
 	)
-	(global_label "Switch21"
-		(shape input)
-		(at 369.57 238.76 180)
+	(global_label "RST"
+		(shape output)
+		(at 34.29 215.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8608,9 +8283,9 @@
 			)
 			(justify right)
 		)
-		(uuid "e31ba4d2-41a5-42db-baac-fe42c590dc19")
+		(uuid "e9393be0-08c0-408b-89ab-138113a3af78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 358.0577 238.76 0)
+			(at 28.4298 215.8206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8620,9 +8295,9 @@
 			)
 		)
 	)
-	(global_label "Switch7"
-		(shape input)
-		(at 67.31 224.79 180)
+	(global_label "RST-R"
+		(shape output)
+		(at 337.82 245.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8630,9 +8305,9 @@
 			)
 			(justify right)
 		)
-		(uuid "e7169127-4382-459a-a644-d231137f4310")
+		(uuid "ea7d97d7-5056-4f85-b51f-90d00ae87590")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.7977 224.79 0)
+			(at 328.5453 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8704,6 +8379,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST-R"
+		(shape output)
+		(at 336.55 214.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f046d587-656d-4769-b52f-5617822ead2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 327.2753 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8796,9 +8493,9 @@
 			)
 		)
 	)
-	(global_label "Switch28"
+	(global_label "Switch27"
 		(shape input)
-		(at 369.57 231.14 180)
+		(at 369.57 228.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8806,9 +8503,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ff9ec04b-a3cc-4131-aa12-e53c15dbaf1b")
+		(uuid "fc20ec57-b6ba-46ff-88e1-267574628370")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 358.0577 231.14 0)
+			(at 358.0577 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8845,7 +8542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 33.02 306.07 0)
 			(effects
 				(font
@@ -8882,72 +8579,6 @@
 			(project "woagboard_left"
 				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
 					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 34.29 215.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00a69b2e-5b1b-499e-865e-df60fad8d48d")
-		(property "Reference" "#PWR011"
-			(at 27.94 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 215.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "498c914e-fb25-469e-9013-85261df307f6")
-		)
-		(instances
-			(project ""
-				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9046,7 +8677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 387.35 342.9 0)
 			(effects
 				(font
@@ -9115,7 +8746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 369.57 284.48 0)
 			(effects
 				(font
@@ -9559,6 +9190,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 355.6 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b647d63-108c-4097-9d8f-82ff37168d7d")
+		(property "Reference" "LED4"
+			(at 357.886 230.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Yellow"
+			(at 357.886 236.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 355.6 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 355.6 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbe67abe-807c-4b39-83da-0c7157f737c7")
+		)
+		(pin "1"
+			(uuid "236e0cc7-248f-44cd-a02d-834d9f046e60")
+		)
+		(instances
+			(project "woagboard"
+				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 39.37 213.36 0)
 		(unit 1)
@@ -9664,7 +9364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 50.8 285.75 0)
 			(effects
 				(font
@@ -9923,6 +9623,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 340.36 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1262437c-86be-47f9-8d0d-992c2caaea23")
+		(property "Reference" "RST2"
+			(at 340.36 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQ-P7C01P"
+			(at 340.36 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:EVQ-P7C"
+			(at 340.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 340.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 340.36 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a65a586-80fd-4979-bd86-955f678ae35b")
+		)
+		(pin "2"
+			(uuid "d27c8241-efb6-4fad-a60f-5387e283e48e")
+		)
+		(instances
+			(project "woagboard"
+				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
+					(reference "RST2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 67.31 201.93 90)
 		(unit 1)
@@ -10113,73 +9881,6 @@
 			(project "designguide-schematic"
 				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 336.55 217.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "186d9440-c109-436b-b320-b72ff3981a40")
-		(property "Reference" "#PWR081"
-			(at 340.36 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V-R"
-			(at 332.74 217.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 336.55 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 336.55 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 336.55 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff3e8805-cd86-4e69-a1b0-5fcc0e35dd8c")
-		)
-		(instances
-			(project "woagboard_left"
-				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
-					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -10493,7 +10194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 369.57 325.12 0)
 			(effects
 				(font
@@ -10530,6 +10231,73 @@
 			(project "woagboard_left"
 				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
 					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 353.06 233.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20c60e1a-8c81-4ed3-9e23-17ab9daa7e4c")
+		(property "Reference" "#PWR049"
+			(at 346.71 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 349.25 233.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 353.06 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70d94941-a5b4-4efb-897b-f91bde296920")
+		)
+		(instances
+			(project ""
+				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -10687,211 +10455,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EVQ-P7C01P:EVQ-P7C01P")
-		(at 340.36 250.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25e1cf3f-9ccf-448c-8c0f-1f156312960d")
-		(property "Reference" "RST2"
-			(at 340.36 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EVQ-P7C01P"
-			(at 340.36 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EVQ-P7C01P:SW_EVQ-P7C01P"
-			(at 340.36 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 340.36 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 340.36 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 340.36 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
-			(at 340.36 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 340.36 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 340.36 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EVQP7C01P/Panasonic/view-part/?ref=eda"
-			(at 340.36 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 340.36 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "2022.4"
-			(at 340.36 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQP7C01P/Panasonic/view-part/?ref=snap"
-			(at 340.36 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "EVQP7C01P"
-			(at 340.36 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6739934&manufacturer=Panasonic&part_name=EVQP7C01P&search_term=None"
-			(at 340.36 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nTACTILE SW, SPST-NO, 0.05A, 12V, SMD; Product Range:EVQP7 Series; Actuator Orientation:Side Actuated; Switch Mounting:SMD; Actuator Style:Rectangular Button; Actuating Force:220gf; Contact Rating:50mA at 12VDC; Switch Dimensions (L xRoHS Compliant: Yes\n"
-			(at 340.36 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 340.36 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic Electronic Components"
-			(at 340.36 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2_2"
-			(uuid "7eacc250-8666-493a-9244-553609afd9d0")
-		)
-		(pin "1_1"
-			(uuid "04f3a1ee-0e7f-4907-bf42-a64808e2c34f")
-		)
-		(pin "2_1"
-			(uuid "b4ac1415-2056-42e7-a30c-af384971edc5")
-		)
-		(pin "1_2"
-			(uuid "de7ccc10-c2ab-4ea9-b598-de967ca39dc7")
-		)
-		(instances
-			(project ""
-				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
-					(reference "RST2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 388.62 287.02 0)
 		(unit 1)
@@ -10984,7 +10547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 85.09 344.17 0)
 			(effects
 				(font
@@ -11053,7 +10616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 335.28 304.8 0)
 			(effects
 				(font
@@ -11524,72 +11087,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 336.55 214.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35170df9-f872-4855-8ca2-aabb148cefa4")
-		(property "Reference" "#PWR080"
-			(at 330.2 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 332.74 214.6299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 336.55 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 336.55 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 336.55 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80646307-039d-4523-a59d-e3caf3fb43ad")
-		)
-		(instances
-			(project "woagboard_left"
-				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 50.8 326.39 0)
 		(unit 1)
@@ -11616,7 +11113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 50.8 326.39 0)
 			(effects
 				(font
@@ -11815,7 +11312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN50P300X300X80-17N-D"
+		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
 			(at 64.77 140.97 0)
 			(effects
 				(font
@@ -12092,7 +11589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 386.08 304.8 0)
 			(effects
 				(font
@@ -12161,7 +11658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 33.02 285.75 0)
 			(effects
 				(font
@@ -12204,211 +11701,6 @@
 			(project ""
 				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EVQ-P7C01P:EVQ-P7C01P")
-		(at 38.1 237.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3675b3c4-8c9c-45ee-b15c-7ff69433b994")
-		(property "Reference" "RST1"
-			(at 38.1 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EVQ-P7C01P"
-			(at 38.1 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EVQ-P7C01P:SW_EVQ-P7C01P"
-			(at 38.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic"
-			(at 38.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
-			(at 38.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 38.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 38.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EVQP7C01P/Panasonic/view-part/?ref=eda"
-			(at 38.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 38.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "2022.4"
-			(at 38.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQP7C01P/Panasonic/view-part/?ref=snap"
-			(at 38.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "EVQP7C01P"
-			(at 38.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6739934&manufacturer=Panasonic&part_name=EVQP7C01P&search_term=None"
-			(at 38.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nTACTILE SW, SPST-NO, 0.05A, 12V, SMD; Product Range:EVQP7 Series; Actuator Orientation:Side Actuated; Switch Mounting:SMD; Actuator Style:Rectangular Button; Actuating Force:220gf; Contact Rating:50mA at 12VDC; Switch Dimensions (L xRoHS Compliant: Yes\n"
-			(at 38.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 38.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic Electronic Components"
-			(at 38.1 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2_2"
-			(uuid "ec6962a5-5a65-48f0-bd5a-915d1655d8e0")
-		)
-		(pin "1_1"
-			(uuid "971de380-eab3-473f-8ed4-dd489eba0098")
-		)
-		(pin "2_1"
-			(uuid "94ae9e12-7374-4766-8ed5-24ec11c20537")
-		)
-		(pin "1_2"
-			(uuid "a7befedc-67ea-4960-87d7-01374898818a")
-		)
-		(instances
-			(project "woagboard"
-				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
-					(reference "RST1")
 					(unit 1)
 				)
 			)
@@ -12701,6 +11993,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 336.55 217.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40bd9afc-48bc-4238-8317-b48a48526854")
+		(property "Reference" "#PWR012"
+			(at 330.2 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 332.74 217.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 336.55 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b5af8dd-c823-448c-9b28-a1b54d3f4794")
+		)
+		(instances
+			(project "woagboard"
+				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 337.82 138.43 0)
 		(unit 1)
@@ -12870,7 +12228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 335.28 325.12 0)
 			(effects
 				(font
@@ -13368,6 +12726,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 38.1 251.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50a89c6a-b18f-4e3b-bdd8-6949a9f3ee11")
+		(property "Reference" "#PWR010"
+			(at 38.1 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "749ac565-1cd2-498b-9ef0-ee76f7d3de1f")
+		)
+		(instances
+			(project "woagboard"
+				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 430.53 217.17 90)
 		(unit 1)
@@ -13556,7 +12981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 335.28 284.48 0)
 			(effects
 				(font
@@ -13625,7 +13050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 369.57 304.8 0)
 			(effects
 				(font
@@ -13662,6 +13087,73 @@
 			(project "woagboard_left"
 				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
 					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 336.55 212.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59d27f3b-52c1-4017-a93d-25fa5a88eb4c")
+		(property "Reference" "#PWR037"
+			(at 340.36 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V-R"
+			(at 332.74 212.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 336.55 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ad020ae-e050-4dff-a528-936351eeb6a1")
+		)
+		(instances
+			(project "woagboard"
+				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -14114,7 +13606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 67.31 326.39 0)
 			(effects
 				(font
@@ -15021,7 +14513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 50.8 306.07 0)
 			(effects
 				(font
@@ -15420,7 +14912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 83.82 326.39 0)
 			(effects
 				(font
@@ -15489,7 +14981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 67.31 285.75 0)
 			(effects
 				(font
@@ -15558,7 +15050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 353.06 304.8 0)
 			(effects
 				(font
@@ -15627,7 +15119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 405.13 342.9 0)
 			(effects
 				(font
@@ -15849,7 +15341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 402.59 284.48 0)
 			(effects
 				(font
@@ -15918,7 +15410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 83.82 285.75 0)
 			(effects
 				(font
@@ -16807,6 +16299,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 342.9 250.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "983013d1-a924-4d00-8c91-4d0646c7b17d")
+		(property "Reference" "#PWR047"
+			(at 342.9 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 342.9 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 342.9 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bd83904-fe51-429c-856f-1694a5d1c6e6")
+		)
+		(instances
+			(project "woagboard"
+				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L_Small")
 		(at 146.05 180.34 90)
 		(unit 1)
@@ -17148,7 +16707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 386.08 325.12 0)
 			(effects
 				(font
@@ -17793,7 +17352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 402.59 325.12 0)
 			(effects
 				(font
@@ -17830,6 +17389,74 @@
 			(project "woagboard_left"
 				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
 					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 35.56 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8b6a526-bc57-4007-a511-0f9bd6f0db1d")
+		(property "Reference" "RST1"
+			(at 35.56 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EVQ-P7C01P"
+			(at 35.56 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:EVQ-P7C"
+			(at 35.56 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 35.56 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c4d73fb-a224-4770-ae0d-6257c79c3e9d")
+		)
+		(pin "2"
+			(uuid "9962fb81-7c2a-4eca-8fcc-dabed282f23b")
+		)
+		(instances
+			(project ""
+				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
+					(reference "RST1")
 					(unit 1)
 				)
 			)
@@ -18205,7 +17832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 100.33 285.75 0)
 			(effects
 				(font
@@ -18634,7 +18261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 33.02 326.39 0)
 			(effects
 				(font
@@ -18703,7 +18330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 100.33 326.39 0)
 			(effects
 				(font
@@ -18747,16 +18374,16 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 34.29 218.44 90)
+		(at 34.29 213.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "be978a6a-841f-4605-819c-75d35b0cba92")
-		(property "Reference" "#PWR012"
-			(at 38.1 218.44 0)
+		(uuid "bd5310ae-9d2a-4cbd-a84e-768a78a516e3")
+		(property "Reference" "#PWR011"
+			(at 38.1 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18765,7 +18392,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 30.48 218.4399 90)
+			(at 30.48 213.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18774,7 +18401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 218.44 0)
+			(at 34.29 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18783,7 +18410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 218.44 0)
+			(at 34.29 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18792,7 +18419,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 34.29 218.44 0)
+			(at 34.29 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18801,12 +18428,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6cf41de0-3206-47a4-baf0-40d821fe297d")
+			(uuid "1ca6b33c-f0dc-4df7-8528-24b3807e9e98")
 		)
 		(instances
-			(project ""
+			(project "woagboard"
 				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -18873,6 +18500,72 @@
 			(project "woagboard_left"
 				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 218.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2d2f8d4-8a5d-4e8a-8aa9-a8ab5656a27c")
+		(property "Reference" "#PWR07"
+			(at 27.94 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 218.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13d056fa-6866-441c-aba7-20cef7c40856")
+		)
+		(instances
+			(project "woagboard"
+				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -19860,7 +19553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 67.31 306.07 0)
 			(effects
 				(font
@@ -19929,7 +19622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 100.33 306.07 0)
 			(effects
 				(font
@@ -20357,7 +20050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 386.08 284.48 0)
 			(effects
 				(font
@@ -20394,6 +20087,73 @@
 			(project "woagboard_left"
 				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
 					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 199.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc9c03ae-a0b1-4a90-81c1-acd66b6718e1")
+		(property "Reference" "#PWR03"
+			(at 124.46 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 199.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3f919fa-fe06-4a35-8d1c-04cbcc12db20")
+		)
+		(instances
+			(project ""
+				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -20687,73 +20447,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 237.49 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2ad40f0-3d07-4b82-9286-19e416aaa579")
-		(property "Reference" "#PWR010"
-			(at 45.72 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 45.72 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73cfe1e9-b043-4103-a714-e5c451e48529")
-		)
-		(instances
-			(project "woagboard"
-				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 405.13 327.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20953,6 +20646,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 115.57 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8ff51da-e8fc-485e-9d86-a19816ff4d78")
+		(property "Reference" "LED3"
+			(at 118.618 196.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Yellow"
+			(at 124.714 196.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 115.57 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 115.57 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ddfcdfd-4037-4422-a5d8-69326b7a29b8")
+		)
+		(pin "1"
+			(uuid "719cf364-b213-478d-8ae2-5ab004cd07c6")
+		)
+		(instances
+			(project "woagboard"
+				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 330.2 113.03 0)
 		(unit 1)
@@ -21067,7 +20829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 102.87 344.17 0)
 			(effects
 				(font
@@ -21136,7 +20898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 83.82 306.07 0)
 			(effects
 				(font
@@ -21435,7 +21197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 353.06 284.48 0)
 			(effects
 				(font
@@ -21504,7 +21266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 369.57 342.9 0)
 			(effects
 				(font
@@ -21571,7 +21333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN50P300X300X80-17N-D"
+		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
 			(at 367.03 139.7 0)
 			(effects
 				(font
@@ -21840,7 +21602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 402.59 304.8 0)
 			(effects
 				(font
@@ -21883,73 +21645,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 347.98 250.19 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa2ee347-e2c7-421e-b843-31ea37da13ef")
-		(property "Reference" "#PWR03"
-			(at 347.98 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 347.98 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 347.98 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 347.98 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 347.98 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bac2270-6589-47b5-8f67-157cdff27db2")
-		)
-		(instances
-			(project "woagboard"
-				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 67.31 344.17 0)
 		(unit 1)
@@ -21976,7 +21671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 67.31 344.17 0)
 			(effects
 				(font
@@ -22045,7 +21740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:SW_choc_v1_HS_Solder"
+		(property "Footprint" "Library:SW_choc_v1_HS_No_LED"
 			(at 353.06 325.12 0)
 			(effects
 				(font

@@ -1127,28 +1127,6 @@
 			(layer "F.Fab")
 			(uuid "a06114a8-6164-4ac3-bfaf-3ab9320009b8")
 		)
-		(fp_text user "KEEP-OUT ZONE"
-			(at 0 -10 90)
-			(layer "Cmts.User")
-			(uuid "5135f20c-cd3d-4be5-9e90-e6445af60bf4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "Antenna"
-			(at 0 -7.4 90)
-			(layer "Cmts.User")
-			(uuid "5a99c787-ea03-4360-804b-12daaf2ae3b7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "1"
 			(at -6 -6.2 90)
 			(unlocked yes)
@@ -11751,28 +11729,6 @@
 			(layer "F.Fab")
 			(uuid "8403ee10-8fdd-4b11-900e-6e1a5d78fa10")
 		)
-		(fp_text user "KEEP-OUT ZONE"
-			(at 0 -10 90)
-			(layer "Cmts.User")
-			(uuid "74f0a27f-ecef-4800-806e-1a1e91284264")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "Antenna"
-			(at 0 -7.4 90)
-			(layer "Cmts.User")
-			(uuid "f9d7a4d1-bb77-4a26-bcfc-e2ca7cd3b368")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
@@ -19160,7 +19116,7 @@
 		)
 		(fp_arc
 			(start 0.299999 -3.624999)
-			(mid 1.577269 -3.167231)
+			(mid 1.57727 -3.167231)
 			(end 2.455444 -2.13293)
 			(stroke
 				(width 0.05)
@@ -25228,7 +25184,7 @@
 		)
 		(fp_arc
 			(start -6.45 6.94999)
-			(mid -6.803554 6.80355)
+			(mid -6.803554 6.803551)
 			(end -6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -25239,7 +25195,7 @@
 		)
 		(fp_arc
 			(start -6.94999 -6.45)
-			(mid -6.80355 -6.803554)
+			(mid -6.803551 -6.803554)
 			(end -6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -25642,18 +25598,6 @@
 			(at 0 7.6 -2)
 			(layer "Dwgs.User")
 			(uuid "02828f2a-4ba7-4641-ade5-fadba96ef678")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "LED"
-			(at 0 4.7 -2)
-			(unlocked yes)
-			(layer "Cmts.User")
-			(uuid "462be6e4-2966-473b-8d9a-efe037e7bc40")
 			(effects
 				(font
 					(size 1 1)
@@ -27022,7 +26966,7 @@
 		)
 		(fp_arc
 			(start 0.299999 -3.624999)
-			(mid 1.577269 -3.167231)
+			(mid 1.57727 -3.167231)
 			(end 2.455444 -2.13293)
 			(stroke
 				(width 0.05)
@@ -29377,7 +29321,7 @@
 		)
 		(fp_arc
 			(start 0.299999 -3.624999)
-			(mid 1.577269 -3.167231)
+			(mid 1.57727 -3.167231)
 			(end 2.455444 -2.13293)
 			(stroke
 				(width 0.05)
@@ -30684,7 +30628,7 @@
 		)
 		(fp_arc
 			(start -6.45 6.94999)
-			(mid -6.803554 6.80355)
+			(mid -6.803554 6.803551)
 			(end -6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -30695,7 +30639,7 @@
 		)
 		(fp_arc
 			(start -6.94999 -6.45)
-			(mid -6.80355 -6.803554)
+			(mid -6.803551 -6.803554)
 			(end -6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -33563,7 +33507,7 @@
 		)
 		(fp_arc
 			(start -6.45 6.94999)
-			(mid -6.803554 6.80355)
+			(mid -6.803554 6.803551)
 			(end -6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -33574,7 +33518,7 @@
 		)
 		(fp_arc
 			(start -6.94999 -6.45)
-			(mid -6.80355 -6.803554)
+			(mid -6.803551 -6.803554)
 			(end -6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -35111,7 +35055,7 @@
 		)
 		(fp_arc
 			(start -6.94999 -6.45)
-			(mid -6.80355 -6.803554)
+			(mid -6.803551 -6.803554)
 			(end -6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -35122,7 +35066,7 @@
 		)
 		(fp_arc
 			(start -6.45 6.94999)
-			(mid -6.803554 6.80355)
+			(mid -6.803554 6.803551)
 			(end -6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -35896,7 +35840,7 @@
 		)
 		(fp_arc
 			(start -6.94999 -6.45)
-			(mid -6.80355 -6.803554)
+			(mid -6.803551 -6.803554)
 			(end -6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -35907,7 +35851,7 @@
 		)
 		(fp_arc
 			(start -6.45 6.94999)
-			(mid -6.803554 6.80355)
+			(mid -6.803554 6.803551)
 			(end -6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -43920,7 +43864,7 @@
 		)
 		(fp_arc
 			(start -6.94999 -6.45)
-			(mid -6.80355 -6.803554)
+			(mid -6.803551 -6.803554)
 			(end -6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -43931,7 +43875,7 @@
 		)
 		(fp_arc
 			(start -6.45 6.94999)
-			(mid -6.803554 6.80355)
+			(mid -6.803554 6.803551)
 			(end -6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -49217,7 +49161,7 @@
 		)
 		(fp_arc
 			(start -6.94999 -6.45)
-			(mid -6.80355 -6.803554)
+			(mid -6.803551 -6.803554)
 			(end -6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -49228,7 +49172,7 @@
 		)
 		(fp_arc
 			(start -6.45 6.94999)
-			(mid -6.803554 6.80355)
+			(mid -6.803554 6.803551)
 			(end -6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -50809,7 +50753,7 @@
 		)
 		(fp_arc
 			(start -6.45 6.94999)
-			(mid -6.803554 6.80355)
+			(mid -6.803554 6.803551)
 			(end -6.95 6.45)
 			(stroke
 				(width 0.05)
@@ -50820,7 +50764,7 @@
 		)
 		(fp_arc
 			(start -6.94999 -6.45)
-			(mid -6.80355 -6.803554)
+			(mid -6.803551 -6.803554)
 			(end -6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -51572,7 +51516,7 @@
 		)
 		(fp_arc
 			(start -6.94999 -6.45)
-			(mid -6.80355 -6.803554)
+			(mid -6.803551 -6.803554)
 			(end -6.45 -6.95)
 			(stroke
 				(width 0.05)
@@ -51583,7 +51527,7 @@
 		)
 		(fp_arc
 			(start -6.45 6.94999)
-			(mid -6.803554 6.80355)
+			(mid -6.803554 6.803551)
 			(end -6.95 6.45)
 			(stroke
 				(width 0.05)

@@ -1,0 +1,3 @@
+[submodule "firmware/bootloader/Adafruit_nRF52_Bootloader"]
+	path = bootloader/Adafruit_nRF52_Bootloader
+url = https://github.com/adafruit/Adafruit_nRF52_Bootloader.git

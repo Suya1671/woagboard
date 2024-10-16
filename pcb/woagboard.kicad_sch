@@ -4737,20 +4737,12 @@
 		(uuid "7433d3b2-08f6-495d-970a-3638aa89e258")
 	)
 	(no_connect
-		(at 44.45 116.84)
-		(uuid "77c15a65-9aec-4cfe-929b-ab516edc4a18")
-	)
-	(no_connect
 		(at 415.29 233.68)
 		(uuid "7dc2c012-d034-4778-bf72-950f30b88072")
 	)
 	(no_connect
 		(at 356.87 60.96)
 		(uuid "98fd9463-3683-45ac-b415-0003a1d12410")
-	)
-	(no_connect
-		(at 346.71 115.57)
-		(uuid "acac5deb-caae-4372-bdf5-2012a5a0d378")
 	)
 	(no_connect
 		(at 415.29 236.22)
@@ -10796,6 +10788,73 @@
 			(project "woagboard_left"
 				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ce07e49-3934-407f-a1f7-f0b77de4e405")
+		(property "Reference" "#PWR050"
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7fb1f36-f499-4ce9-bfe9-6d20d65cfef7")
+		)
+		(instances
+			(project "woagboard"
+				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -19737,6 +19796,73 @@
 			(project "woagboard_left"
 				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
 					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 346.71 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d22e7634-4435-40b0-a771-824cfe47a635")
+		(property "Reference" "#PWR055"
+			(at 340.36 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 342.9 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 346.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f85ef688-0bd0-40d1-8722-c1f16ceb6f65")
+		)
+		(instances
+			(project "woagboard"
+				(path "/c2a65ddb-3915-4293-98a9-444287fe2a3d"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

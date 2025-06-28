@@ -1,17 +1,20 @@
-# Woagboard
-lets see if this works like at all
+# Woagboard: Bisexual egg edition
+_name chosen by popular vote._
 
-# TODOs if I ever feel like making a v2
-- RGB (per-key)
-- rotary encoder
-  - One on the left half
-- pointer support
-  - trackpoint on right?
-- display
-  - Use it for info display and potentially FIDO2 status
-- FIDO2 auth software
+ROUND 3
+
+# TO-DOs
+- [ ] RGB (per-key)
+- [ ] Rotary encoder support
+- [ ] Trackpad support
+
+## Backlogs/potentials
+- [ ] Display
+- [ ] FIDO2 auth software
   - Key combo as encryption
 
 # Copyright notice
-The Woagboard is not affiliated with New Blood Interactive nor Tour De Pizza.
-I just like ULTRAKILL and Pizza Tower.
+The Woagboard is not affiliated with New Blood Interactive, Tour De Pizza, or any other IPs referenced on the design.
+I just like ULTRAKILL, Pizza Tower, etc.
+
+The board's actual license is the CERN Open Hardware License v1.2. See the [license file](./license.md) for more information.

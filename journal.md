@@ -33,4 +33,57 @@ _WOAG_
 ![the woagboard's schematic](./pictures/journal/june-28-schematic.png)
 _I'm pretty proud of this ngl_
 
-Next up:
+I might add ARGB later, depending on if I'm feeling up for the absolute routing nightmare that it is going to be
+
+**Total time spent: 3 hours**
+
+Next up: PCB footprints and board outline
+
+# June 27th
+
+Started early today at ~11:10. Worked for... the entire day.
+
+Did a check over my schematic and started working on footprints. I redid my old Panasonic EVQP7C01P footprint and made a new crystal oscillator footprint.
+
+![EVQP7C01P footprint](./pictures/journal/june-29-evq.png)
+![Crystal Oscillator Footprint](./pictures/journal/june-29-osc.png)
+_Algebra go brr_
+
+I took my Choc V1 Reversible PCB footprint from the Yeagboard. I am not remaking that. It genuinely took me 2 days to get that working when I did it.
+I might modify it to add ARGB, but I'm unsure, especially considering battery life implications
+
+Anyways: I started off with this mess for the PCB:
+![A grid of all PCB components/footprints the woagboard uses](./pictures/journal/june-29-pain.png)
+_Lettuce begin the train of pain_
+
+
+![Keys in the correct position](./pictures/journal/june-29-ergogen.png)
+_...And this is the only reason I used ergogen_
+
+I initially planned to have the MCU antenna face the right side of the board, but then I realised that, for my insanely tight routing plans, I would not have enough space.
+Thus, compromise: the MCU faces downwards. This is going to be fun to route later.
+
+![WIP of final component positions](./pictures/journal/june-29-idea.png)
+_Oh no..._
+
+And then I kinda just... got into a flow. The world didn't exist. Just me, KiCAD, and a hell of a lot of routing to get done.
+It is now... ~18:00 When I wrote this. It's been like 4 hours of continuous routing. I do not like routing because it feels
+like you spent so much time but got nothing done. Bleh.
+
+Anyways here's some fun things I've routed:
+
+Tag Connect TC2030 "connector" (AKA just a bunch of pads and holes)
+![Routed TC2030 connector](./pictures/journal/june-29-tc2030.png)
+_Forgive me JLCPCB, for I have sinned_
+
+The Nrf52840 DC/DC buck converter
+![Routed DC/DC voltage loop](./pictures/journal/june-29-dcdc.png)
+_Honestly, this was pretty fun to try optimise_
+
+Update: it's now 10PM. After quite a few delays and things inbetween, first routing pass is done! This part took me the longest:
+![Very busy PCB routing](./pictures/journal/june-29-busy.png)
+_Just wrapping my head around what I was viewing was half the battle_
+
+Anyways I'm tired and it's time to sleep
+
+**Total hours spent: 7 hours** (yep...)

@@ -1,0 +1,33 @@
+[kbplacer_plugin_action.py:65]: Plugin version: 0.13
+[kbplacer_plugin_action.py:66]: Python version: '3.12.11 (main, Nov 10 2011, 15:00:00) [GCC 14.3.0]'
+[kbplacer_plugin_action.py:67]: KiCad version: 9.0.2 with 4.2.3 gtk3 (phoenix) wxWidgets 3.2.8
+[kbplacer_dialog.py:586]: Language: en
+[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "/var/home/suya/Documents/projects/woagboard/ergogen/kle.json", "key_distance": [18.05, 17.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": false, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+[key_placer.py:362]: Set key 1U distance: 18050000/17050000
+[key_placer.py:124]: Switches by nets: defaultdict(<class 'list'>, {frozenset({'GND', 'Switch18'}): ['SW18'], frozenset({'GND', 'Switch17'}): ['SW17'], frozenset({'GND', 'Switch16'}): ['SW16'], frozenset({'GND', 'Switch15'}): ['SW15'], frozenset({'GND', 'Switch14'}): ['SW14'], frozenset({'GND', 'Switch13'}): ['SW13'], frozenset({'GND', 'Switch12'}): ['SW12'], frozenset({'GND', 'Switch11'}): ['SW11'], frozenset({'GND', 'Switch10'}): ['SW10'], frozenset({'GND', 'Switch9'}): ['SW9'], frozenset({'GND', 'Switch8'}): ['SW8'], frozenset({'GND', 'Switch7'}): ['SW7'], frozenset({'GND', 'Switch6'}): ['SW6'], frozenset({'GND', 'Switch5'}): ['SW5'], frozenset({'GND', 'Switch4'}): ['SW4'], frozenset({'GND', 'Switch3'}): ['SW3'], frozenset({'GND', 'Switch2'}): ['SW2'], frozenset({'GND', 'Switch1'}): ['SW1']})
+[key_placer.py:128]: Diodes by switch: {}
+[board_modifier.py:64]: Searching for SW1 footprint in /home/suya/Documents/projects/woagboard/woagboard.kicad_pcb
+[key_placer.py:558]: Looking for connection template between SW1 and other elements
+[board_modifier.py:98]: Getting SW1 footprint position: (94555000, 47057500)
+[key_placer.py:602]: Got connection template: 
+[kle_serial.py:897]: User layout: [[{'r': 2, 'rx': 2.951688, 'ry': 2.471004, 'y': -0.4722219999999999, 'x': -0.5, 'a': 7, 'h': 0.944444}, '\n\n\n\n13'], [{'rx': 2.984648, 'ry': 1.471613, 'y': -0.4722219999999999, 'x': -0.5, 'h': 0.944444}, '\n\n\n\n8'], [{'rx': 3.017609, 'ry': 0.472222, 'y': -0.472222, 'x': -0.5, 'h': 0.944444}, '\n\n\n\n3'], [{'rx': 3.947201, 'ry': 2.625532, 'y': -0.4722219999999999, 'x': -0.5, 'h': 0.944444}, '\n\n\n\n14'], [{'rx': 3.980161, 'ry': 1.626141, 'y': -0.4722219999999999, 'x': -0.5, 'h': 0.944444}, '\n\n\n\n9'], [{'rx': 4.013122, 'ry': 0.62675, 'y': -0.472222, 'x': -0.5, 'h': 0.944444}, '\n\n\n\n4'], [{'rx': 4.938836, 'ry': 2.897635, 'y': -0.4722219999999999, 'x': -0.5, 'h': 0.944444}, '\n\n\n\n15'], [{'rx': 4.971797, 'ry': 1.898244, 'y': -0.4722219999999999, 'x': -0.5, 'h': 0.944444}, '\n\n\n\n10'], [{'rx': 5.004757, 'ry': 0.898853, 'y': -0.472222, 'x': -0.5, 'h': 0.944444}, '\n\n\n\n5'], [{'r': 12, 'rx': 4.840753, 'ry': 4.419747, 'y': -0.4722219999999999, 'x': -0.5, 'h': 0.944444}, '\n\n\n\n17'], [{'r': 27, 'rx': 5.922542, 'ry': 4.824184, 'y': -0.47222200000000036, 'x': -0.5, 'h': 0.944444}, '\n\n\n\n18'], [{'r': -9, 'rx': 0.5, 'ry': 1.804353, 'y': -0.4722219999999999, 'x': -0.5, 'h': 0.944444}, '\n\n\n\n1'], [{'rx': 0.647744, 'ry': 2.792041, 'y': -0.4722219999999999, 'x': -0.5, 'h': 0.944444}, '\n\n\n\n6'], [{'rx': 0.795487, 'ry': 3.779729, 'y': -0.4722219999999999, 'x': -0.5, 'h': 0.944444}, '\n\n\n\n11'], [{'r': -3, 'rx': 1.768876, 'ry': 0.828415, 'y': -0.472222, 'x': -0.5, 'h': 0.944444}, '\n\n\n\n2'], [{'rx': 1.818304, 'ry': 1.827045, 'y': -0.4722219999999999, 'x': -0.5, 'h': 0.944444}, '\n\n\n\n7'], [{'rx': 1.867733, 'ry': 2.825674, 'y': -0.4722219999999999, 'x': -0.5, 'h': 0.944444}, '\n\n\n\n12'], [{'rx': 3.7022, 'ry': 4.323395, 'y': -0.4722219999999999, 'x': -0.5, 'h': 0.944444}, '\n\n\n\n16']]
+[key_placer.py:662]: Layout offset: (18922031, 26069381)
+[board_modifier.py:85]: Setting SW13 footprint position: (72199999, 68199999)
+[board_modifier.py:85]: Setting SW8 footprint position: (72794927, 51160382)
+[board_modifier.py:85]: Setting SW3 footprint position: (73389873, 34120766)
+[board_modifier.py:85]: Setting SW14 footprint position: (90169009, 70834701)
+[board_modifier.py:85]: Setting SW9 footprint position: (90763937, 53795085)
+[board_modifier.py:85]: Setting SW4 footprint position: (91358883, 36755468)
+[board_modifier.py:85]: Setting SW15 footprint position: (108068020, 75474057)
+[board_modifier.py:85]: Setting SW10 footprint position: (108662966, 58434441)
+[board_modifier.py:85]: Setting SW5 footprint position: (109257894, 41394824)
+[board_modifier.py:85]: Setting SW17 footprint position: (106297622, 101426067)
+[board_modifier.py:85]: Setting SW18 footprint position: (125823914, 108321718)
+[board_modifier.py:85]: Setting SW1 footprint position: (27947031, 56833599)
+[board_modifier.py:85]: Setting SW6 footprint position: (30613810, 73673680)
+[board_modifier.py:85]: Setting SW11 footprint position: (33280571, 90513760)
+[board_modifier.py:85]: Setting SW2 footprint position: (50850242, 40193856)
+[board_modifier.py:85]: Setting SW7 footprint position: (51742418, 57220498)
+[board_modifier.py:85]: Setting SW12 footprint position: (52634611, 74247122)
+[board_modifier.py:85]: Setting SW16 footprint position: (85746741, 99783265)
+[key_placer.py:999]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.UNCHANGED: 'Unchanged'>, position=ElementPosition(x=5.08, y=3.03, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='')]

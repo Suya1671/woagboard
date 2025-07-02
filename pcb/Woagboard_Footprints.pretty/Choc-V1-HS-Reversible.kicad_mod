@@ -1259,16 +1259,27 @@
 	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 		(offset
-			(xyz -5 -3.75 0)
+			(xyz 10 -5.8 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -180 0)
+			(xyz 90 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/Models/Kailh-LP-Choc.STEP"
+	(model "${KIPRJMOD}/Models/SW_Kailh_Choc_V1.stp"
+		(offset
+			(xyz 0 0 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -180)
+		)
+	)
+	(model "${KIPRJMOD}/Models/Kailh LP Choc PC Keycap.step"
 		(offset
 			(xyz 0 0 -3.5)
 		)
@@ -1276,7 +1287,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 0 90)
+			(xyz -0 -180 -0)
 		)
 	)
 )

@@ -1,5 +1,5 @@
 ---
-title: "Woagboard v0.3"
+title: "Woagboard V3"
 author: "Suya"
 description: "My woagboard keyboard idea combined with a modified version of the yeagpad's layout."
 created_at: "2025-06-28"
@@ -87,3 +87,47 @@ _Just wrapping my head around what I was viewing was half the battle_
 Anyways I'm tired and it's time to sleep
 
 **Total hours spent: 7 hours** (yep...)
+
+# June 30th
+
+I realised I forgot to add a status LED. Oops.
+...I also forgot to use wakatime-kicad. Oops x2 combo.
+
+Turns out, JLCPCB only has 6 options for basic LEDs. Kinda limit colour selection :c.
+
+I mostly worked on the board outline today. Turns out, KiCAD now has a decent bezier curve tool. It also has decent edge rounding.
+I no longer need FreeCAD and 5000 constraints to make a decent board outline anymore, which is really nice.
+
+I also decided to replace the USBLC6 with an SRV05-4. It's recommended by the zmk designguide and doesn't require an extra capacitor (which I forgot about for the USBLC6), which is nice.
+
+I also finally added in more 3D models for the keyswitches and caps, and now plan to make a case for it in FreeCAD. Time to see how that goes.
+Finally for today, a blender render of the board.
+
+![A render of one half of the woagboard](./pictures/journal/june-30-render.png)
+_[pcb2blender](https://github.com/30350n/pcb2blender) my beloved_
+
+Next up: Make a case for the board in FreeCAD
+
+
+**Total hours spent: 4 hours**
+
+# July 2nd
+
+I have decided I want a screen on the woagboard. PCB update time.
+
+I've decided to go with a nice!view, mostly because it's a standard size (so I can attack a cheaper OLED if I wanted to), and should be *fairly* simple to add to the board.
+
+Update: The screen won't fit. It intersects with the MCU traces badly :c
+
+![The nice!view header footprint intersecting various components](./pictures/journal/jul-2-niceview.png)
+_Yeah that ain't working out, chief._
+
+Idea 2: place pads and just wire up the screen
+
+![The newly added pads for wiring the nice!view later](./pictures/journal/jul-2-pads.png)
+_Well... It worked, but it was painful_
+
+I also decided to do a tiny bit of work on the silkscreen. Thus: info block
+
+![Silkscreen containing information about the board](./pictures/journal/jul-2-siklscreen.png)
+_BEEEEEEEEEEEEEEEEEEEEEEEE_

@@ -31,7 +31,7 @@
 /* LED
  *------------------------------------------------------------------*/
 #define LEDS_NUMBER 1
-#define LED_PRIMARY_PIN _PINNUM(0, 28) // Yellow top of the board
+#define LED_PRIMARY_PIN _PINNUM(0, 30) // Geren top of the board
 #define LED_STATE_ON 0
 
 /*------------------------------------------------------------------*/
@@ -66,9 +66,9 @@
 #define USB_DESC_UF2_PID 0x0001
 #define USB_DESC_CDC_ONLY_PID 0x0001
 
-#define UF2_PRODUCT_NAME "Woagboard (Left Half)"
-#define UF2_VOLUME_LABEL "WOAGLEFT"
-#define UF2_BOARD_ID "nRF52840-woagboard-left"
+#define UF2_PRODUCT_NAME "Woagboard"
+#define UF2_VOLUME_LABEL "WOAGBOARD"
+#define UF2_BOARD_ID "nRF52840-woagboard"
 #define UF2_INDEX_URL "https://github.com/Suyashtnt/woagboard"
 
 #endif // _WOAGBOARD_LEFT_H

@@ -147,13 +147,13 @@ Anyways: I did not use FreeCAD. That thing scares me still. Instead, I used Fusi
 _In the beninging_
 
 I started off with making a sketch. And this is the main issue honestly: I only used 2 sketches for most of the design phase, constantly editing it. This lead to some... _interesting_ sketch intersections later on.
- 
+
 ![2nd revision of the case and sketch](./pictures/journal/jul-3-v2.png)
 _Woah! Geometry!_
 
 As you can see, I settled on a design pretty fast. Most of the design iterations was making this basic idea _look good_ and _be as thin as possible_
 
-I continued designing, making cutouts for the switches, etc. I wanted the front to look like the TOTEM: where there aren't keys, it's filled in. It's a look and style I really like. So, I was being silly and thought "hmm. What if I just fill in the areas that aren't keys manually. Turns out, that would be slow and painful due to my weird curves and angles. 
+I continued designing, making cutouts for the switches, etc. I wanted the front to look like the TOTEM: where there aren't keys, it's filled in. It's a look and style I really like. So, I was being silly and thought "hmm. What if I just fill in the areas that aren't keys manually. Turns out, that would be slow and painful due to my weird curves and angles.
 
 ![An attempt to fill in the empty spaces of the case](./pictures/journal/jul-3-fill.png)
 _Ok this ain't working chief_
@@ -163,7 +163,7 @@ Thus, a new idea that was suggested from a keyboard Discord server I'm in: simpl
 ![8th revision of the case sketch](./pictures/journal/jul-3-v8.png)
 _8th times the charm!_
 
-This... Actually looks pretty good I think. So I rolled with it. 
+This... Actually looks pretty good I think. So I rolled with it.
 
 **Total hours spent: 3 hours**
 
@@ -228,7 +228,7 @@ Here's a quick render (I adjusted the physical materials so it looks ok):
 ![Render of the case](./pictures/journal/jul-7-render.png)
 _Fusion didn't compute the subsurface properly so that's why theres the weird red and blue_
 
-Now: Dual case time. 
+Now: Dual case time.
 
 The way I handled this was pretty interesting: I duplicated the fusion project, and just went through the timeline step-by-step, updating to mirror things as needed.
 
@@ -251,7 +251,7 @@ _LGTM_
 
 ## July 8th+9th
 
-I got a lot of work done on the dual case, to the point of near completion. There's about 5 more revisions of just sketch adjustments, which doesn't look that great on it's own, so I'll skip a bunch to where I actually have something worth showing: 
+I got a lot of work done on the dual case, to the point of near completion. There's about 5 more revisions of just sketch adjustments, which doesn't look that great on it's own, so I'll skip a bunch to where I actually have something worth showing:
 
 ![Revision 10 of the double case, left side only](./pictures/journal/jul-8-v10.png)
 _Screws!! And updated rounded corners, margins, tolerances, bevels..._
@@ -299,3 +299,81 @@ And with that, I think I'm done with the case! I'll probably be going through a 
 
 ## RMK time
 
+While going over the central.rs file for the firmware, I noticed there is an is_charging pin. I should probably use that. Lemme add it to the design lol
+
+![The new CHG trace to the MCU](./pictures/journal/jul-13-chg.png)
+_Also took the time to cleanup nearby traces_
+
+And... RMK with just raw rust is hard. There's a _lot_ it handles for you with the keyboard.toml file, but at the same time, I do like the absolute typesafety and errors rust gives me. Also autocompletion. Mainly autocompletion.
+
+I have had to deal with ~20 errors and a bunch of refactorings due to the way I made my board, but I eventually got it to work. Keymap porting took a long time though. There's also some weird cumbersome issues when using rust directly, but it's manageable.
+
+I also had the side-quest of a VIAL layout, which I could autogenerate using [ergogen](https://github.com/ergogen/ergogen) and [kbplacer](https://github.com/adamws/kicad-kbplacer). Main issue: YAML nonsense
+
+```YAML
+      rows:
+        bottom:
+          row_net: 2
+          mirror.row_net: 2
+        home:
+          row_net: 1
+          mirror.row_net: 1
+        top:
+          row_net: 0
+          mirror.row_net: 0
+```
+
+The row nets for the top row aren't exported. Why? YAML seemingly takes that 0 as false, and just yeets the field entirely. Thus, I had to quote it
+```YAML
+      rows:
+        bottom:
+          row_net: 2
+          mirror.row_net: 2
+        home:
+          row_net: 1
+          mirror.row_net: 1
+        top:
+          row_net: "0"
+          mirror.row_net: "0"
+```
+
+And now, we have VIAL :yay:.
+
+![Screenshot of VIAL](./pictures/journal/jul-13-vial.png)
+_Configurable, even after flashed. Nice._
+
+Anyways, I've spent most of the RMK work today going through the docs, figuring out everything at my disposal. I am missing a lot of stuff from ZMK:
+- Tap Dance
+- Auto Layers
+- Per-key configuration for tap/layer holds
+
+This probably makes this firmware less usable than my eventual ZMK option, but oh well /shrug. I have 1 layer down in code. Time for the rest of them tomorrow
+
+**Total hours spent: 6 hours**
+
+# July 14th
+
+Finished RMK firmware dev, porting over from my zmk config. To make life easier for me in the future, I made a couple PRs to RMK! The main one is https://github.com/HaoboGu/rmk/pull/472, which makes some bits of the rust code (mostly Forks) a lot nicer to write.
+
+Also: I went extra fancy on the formatting for fun
+```rs
+    #[rustfmt::skip]
+    let base =
+        [
+        //  ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
+            [    k!(X),       k!(F),        k!(D),        k!(P),        k!(Q),           k!(J),      k!(Quote),      k!(O),        k!(U),       k!(Dot)   ],
+        //  ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+            [ mt!(N,ctrl), mt!(S,shift),  mt!(T,alt),   mt!(C,gui),     k!(Y),           k!(M),     mt!(H,gui),   mt!(A,alt),  mt!(E,shift),  mt!(I,ctrl) ],
+        //  ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+            [    k!(B),       k!(V),        k!(K),        k!(G),        k!(W),           k!(Z),        k!(L),    k!(RepeatKey),  k!(Slash),    k!(Comma)  ],
+        //  ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────├─────────────┴─────────────╯
+            [a!(No),      a!(No),          k!(LGui),      k!(R),     lt!(fn,Return),    mo!(num),  lt!(nav,Space), k!(RShift),    a!(No),       a!(No)    ]
+        //                              ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯
+        ];
+```
+
+Can't really show images with code so none for today :pensive:
+
+Tomorrow: Final work on the case and preparing to ship
+
+**Total hours spent: 3 hours**

@@ -377,3 +377,15 @@ Can't really show images with code so none for today :pensive:
 Tomorrow: Final work on the case and preparing to ship
 
 **Total hours spent: 3 hours**
+
+# July 15th
+
+So, JLCPCB used to assemble the microcontroller I'm using (Ebyte E732G4M08S1C) on economic assembly. That for some reason changed. Hell. My PCBA costs went from $60 to $100. I've asked support on exactly why this happened. Looks like I'll need to change my other suppliers to cover the costs. Speaking of which, I added a BOM to my README.
+
+![BOM](./pictures/journal/jul-15-bom.png)
+
+Due to the new costs from JLCPCB, I probably will have to pay for some of the stuff myself, which is just. Ugh.
+
+Anyways, to distract myself from this annoyance, I decided to absolutely go ham on the silkscreen. There are now way too many references, memes, and just silly stuff. As it should be.
+
+**Total hours spent: 3 hours**

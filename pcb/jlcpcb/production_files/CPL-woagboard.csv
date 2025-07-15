@@ -1,0 +1,30 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,1u,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,124.9,-71.75,180.0,top
+C2,4u7,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,124.9,-75.165,0.0,top
+C3,4u7,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,130.0,-63.8175,90.0,top
+C4,4u7,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,123.0,-63.8175,-90.0,top
+C5,4u7,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,120.5,-79.6825,90.0,top
+C6,1u,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,127.25,-59.25,-90.0,top
+C7,18p,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,133.15,-71.415,90.0,top
+C8,18p,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,130.65,-71.415,-90.0,top
+F1,750 mA,Fuse_0603_1608Metric,132.0,-50.5,-90.0,top
+J1,TYPE-C-31-M-12,USB_C_Receptacle_HRO_TYPE-C-31-M-12,127.25,-41.21,180.0,top
+J2,SWD,PinHeader_1x06_P2.54mm_Horizontal,65.9,-85.75,-90.0,top
+L1,BLM15PX121SN1D,L_0402_1005Metric,132.0,-46.485,-90.0,top
+L2,10u,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,124.9,-73.5,180.0,top
+LED1,yellow,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,135.5,-50.75,180.0,top
+LED2,green,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,135.5,-67.75,0.0,top
+PWR1,EVQ-P7C01P,EVQ-P7C01P,135.975,-40.562994,90.0,top
+R1,5k1,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,122.8475,-48.0,180.0,top
+R2,5k1,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,122.8475,-46.5,0.0,top
+R3,270Ω,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,135.75,-53.75,180.0,top
+R4,47k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,126.0,-59.25,90.0,top
+R5,1k5,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,131.0,-61.75,0.0,top
+R6,3k9,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,123.25,-59.25,90.0,top
+R7,10k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,136.0,-56.5,180.0,top
+R8,100Ω,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,135.25,-71.75,-90.0,top
+RST1,EVQ-P7C01P,EVQ-P7C01P,136.0,-46.362994,90.0,top
+U1,E73-2G4M08S1C,nRF52840_E73-2G4M08S1C,128.9,-83.43,180.0,top
+U2,BQ24075RGT,QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm,126.5025,-63.24,0.0,top
+U3,SRV05-4,SOT-23-6-routable,127.45,-49.65,0.0,top
+Y1,32.768kHz,Q13FC13500004,131.9,-74.165,0.0,top

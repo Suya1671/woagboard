@@ -26,7 +26,7 @@ I made this keyboard for myself, and to learn PCB design in the process. With th
 ![Woagboard Case](./render/Render-Angled.png)
 
 The case is designed to be 3D printed, with a focus on being thin, minimalistic, and clean. It features cutouts for all the necessary ports and buttons, and has a dedicated space for the nice!view display on the left half.
-It also features cutots for [Tenting Feet](https://www.aliexpress.com/item/1005005605228469.html) that make the keyboard way more comfy to use.
+It also features cutouts for [Tenting Feet](https://www.aliexpress.com/item/1005005605228469.html) that make the keyboard way more comfy to use.
 
 ## The PCB
 

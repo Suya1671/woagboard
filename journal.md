@@ -5,6 +5,8 @@ description: "My woagboard keyboard idea combined with a modified version of the
 created_at: "2025-06-28"
 ---
 
+**Total hours spent: ~50 hours**
+
 # June 26th
 
 I started working on getting the project setup. I removed the old files, updated the Ergogen code, and recreated the KiCAD project
@@ -410,4 +412,6 @@ I've also been hard at work in blender to make renders. It's honestly pretty fun
 ![Woagboard Case](./render/Render-Angled.png)
 _More in the README file_
 
-**Total hours spent: 2.5 hours (4 hours if you include rendering lol)**
+I also added a new firmware for the zmk under [woagboard-zmk](https://github.com/Suya1671/woagboard-zmk). This is an updated version of the old woagboard v0.2 firmware, but with the new layout and matrix.
+
+**Total hours spent: 3 hours (4 hours if you include rendering lol)**

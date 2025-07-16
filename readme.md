@@ -80,7 +80,7 @@ This is the Bill of Materials (BOM) for 1 Woagboard (2 halves). This is why cert
 
 Notes:
 
-- * Alternativelty, the Ebyte E73-2G4M08S1CX can be used for a UFL connector, requiring an external antenna. Both options annoyingly got moved to standard assembly only while I was making this design, increasing costs dramatically (~$60 -> ~$100). I've contacted JLCPCB about this, and hopefully I can get it back on economic assembly for anybody else trying to make this board.
+- \* Alternativelty, the Ebyte E73-2G4M08S1CX can be used for a UFL connector, requiring an external antenna. Both options annoyingly got moved to standard assembly only while I was making this design, increasing costs dramatically (~$60 -> ~$100). I've contacted JLCPCB about this, and hopefully I can get it back on economic assembly for anybody else trying to make this board.
 - ** Typeractive also has these. If you're in the US, might be better to buy from them instead.
 - I already have switches and keycaps, so I don't need to purchase them.
 - I am not purchasing the nice!view for the fact that I'm out of budget if I do. Thanks JLCPCB.

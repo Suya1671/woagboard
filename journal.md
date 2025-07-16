@@ -393,3 +393,21 @@ Anyways, to distract myself from this annoyance, I decided to absolutely go ham 
 _WOAG_
 
 **Total hours spent: 3 hours**
+
+# July 16th
+
+I finally got the JLCPCB support response. It wasn't that helpful. Weh. My best guess is a reliability issue. Guess I gotta pay extra sob.
+
+![Picture of JLCPCB quote for the board](./pictures/journal/jul-16-quote.png)
+_The budget eater (nom)_
+
+Due to this, I'm not getting the nice!view. I just don't have the budget for it. I will probably add it later, but for now, I just wanna finish this project sob. I've also resorted to using AliExpress for some of the components, since typeractive + shipping
+would just be too expensive.
+
+I've also been hard at work in blender to make renders. It's honestly pretty fun.
+
+![Woagboard with the case opened](./render/Render-Open.png)
+![Woagboard Case](./render/Render-Angled.png)
+_More in the README file_
+
+**Total hours spent: 2.5 hours (4 hours if you include rendering lol)**

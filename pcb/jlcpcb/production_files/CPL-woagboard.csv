@@ -17,7 +17,7 @@ LED2,green,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,135.5,-67.75,0.0,top
 PWR1,EVQ-P7C01P,EVQ-P7C01P,135.975,-40.562994,90.0,top
 R1,5k1,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,122.8475,-48.0,180.0,top
 R2,5k1,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,122.8475,-46.5,0.0,top
-R3,270Ω,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,135.75,-53.75,180.0,top
+R3,1k5,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,135.75,-53.75,180.0,top
 R4,47k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,126.0,-59.25,90.0,top
 R5,1k5,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,131.0,-61.75,0.0,top
 R6,3k9,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,123.25,-59.25,90.0,top

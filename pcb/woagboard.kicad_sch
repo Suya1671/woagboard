@@ -6180,7 +6180,7 @@
 	)
 	(text "Low-power Oscillator"
 		(exclude_from_sim no)
-		(at 91.44 69.342 0)
+		(at 92.71 69.596 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6382,8 +6382,20 @@
 		(uuid "010a848f-bbd7-4414-932f-f28250c95cc4")
 	)
 	(no_connect
+		(at 33.02 102.87)
+		(uuid "0f5f14ee-60c2-4b60-be52-41798a0f83a3")
+	)
+	(no_connect
 		(at 166.37 58.42)
 		(uuid "40b86a46-c1e4-47cc-afb3-67adf8f18899")
+	)
+	(no_connect
+		(at 78.74 67.31)
+		(uuid "44c5dc2e-5ac9-479c-8e6b-6b7c7ecf85f9")
+	)
+	(no_connect
+		(at 78.74 54.61)
+		(uuid "4fac25c0-2897-478c-bf2a-492a630002fe")
 	)
 	(no_connect
 		(at 281.94 55.88)
@@ -6392,6 +6404,10 @@
 	(no_connect
 		(at 237.49 54.61)
 		(uuid "86b4cd63-86b5-4b43-9af3-4f80705ec13b")
+	)
+	(no_connect
+		(at 78.74 115.57)
+		(uuid "9024718b-6a95-49eb-ac13-8db399338a04")
 	)
 	(no_connect
 		(at 237.49 57.15)
@@ -9526,7 +9542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "270Ω"
+		(property "Value" "1k5"
 			(at 173.228 65.024 90)
 			(effects
 				(font

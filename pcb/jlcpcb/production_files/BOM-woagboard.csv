@@ -9,7 +9,7 @@ green,LED2,LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C2297,1
 4u7,"C2,C3,C4,C5",C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,C23733,4
 10k,R7,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,C25744,1
 47k,R4,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,C25792,1
-270Ω,"R3,R5,R8",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C25867,3
+1k5,"R3,R5,R8",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C25867,3
 5k1,"R1,R2",R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,C25905,2
 750 mA,F1,Fuse_0603_1608Metric,C2687878,1
 SRV05-4,U3,SOT-23-6-routable,C2836319,1
@@ -19,3 +19,5 @@ EVQ-P7C01P,"PWR1,RST1",EVQ-P7C01P,C388883,2
 1u,"C1,C6",C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,C52923,2
 SWD,J2,PinHeader_1x06_P2.54mm_Horizontal,C706869,1
 BLM15PX121SN1D,L1,L_0402_1005Metric,C88970,1
+nice!view,J4,nice!view_pads,,1
+10k Thermistor,TH1,TestPoint_2Pads_Pitch2.54mm_Drill0.8mm,,1

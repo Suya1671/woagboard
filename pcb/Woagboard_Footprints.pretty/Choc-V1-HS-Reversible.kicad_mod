@@ -1259,7 +1259,7 @@
 	(embedded_fonts no)
 	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG135001S30_Choc.step"
 		(offset
-			(xyz 10 -6 0)
+			(xyz 10 -5.95 0)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -1270,7 +1270,7 @@
 	)
 	(model "${KIPRJMOD}/Models/SW_Kailh_Choc_V1.stp"
 		(offset
-			(xyz 0 0 -1.5)
+			(xyz 0 0 -1.34)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -1287,7 +1287,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -180 -0)
+			(xyz -180 -0 -0)
 		)
 	)
 )
